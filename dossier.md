@@ -1,8 +1,10 @@
 # Remerciements
 
 Je tiens à remercier dans un premier temps, toute l'équipe pédagogique de l'IUT informatique de Bourg-en-Bresse et les intervenants professionnels de la formation METINET, pour nous avoir transmis leurs expériences.
+
 Je tiens à remercier toute l'équipe d'IDCI-Consulting pour l'accompagnement qu'elle m'a apporté depuis déjà plus d'un an.
 Je remercie plus particulièrement Brahim Boukoufallah pour sa disponibilité et l'attention qu'il m'a consacrée jusqu'à aujourd'hui, ainsi que Baptiste Bouchereau et Gabriel Bondaz pour toute l'expérience dont ils m'ont fait profiter.
+
 Je remercie également Adrien Peytavie pour son accompagnement sur cette année METINET.
 
 # Résumé
@@ -13,24 +15,32 @@ Un développeur full-stack maîtrise l'ensemble des domaines techniques constitu
 
 # Introduction
 
+IDCI-Consulting est une entreprise de services du numérique (ou ESN). Au cours de cette année, plusieurs missions m'ont été confiées.
+
+Ce rapport présente tout d'abord l'entreprise et mon environnement de travail, et rend compte du développement des différentes missions par un descriptif de celles-ci suivi d'une étude fonctionnelle et technologique.
+
+Il se conclura par les évolutions futures des projets et par un bilan sur la globalité de ma formation.
+
 ## IDCI-Consulting
 
 IDCI-Consulting est une ESN au capital de 10 000 €, créée le 10 décembre 2007 à l'initiative de Gabriel Bondaz et Frédéric Bondaz. L'activité principale consiste en la conception, le développement et le maintien de sites web s'appuyant sur des technologies open source : il s'agit généralement d'applications web PHP complexes telles que des solutions e-commerce, de la gestion d'événements, etc.
+
 En plus du développement, IDCI-Consulting propose des formations dans le domaine du web. Cela peut être pour ses clients afin de leur permettre de prendre en main leur site, ou pour d'autres entreprises soucieuses de découvrir des technologies de pointe. Enfin, IDCI-Consulting propose aux entreprises des consultants qui apportent à ces dernières un support et des compétences d'experts.
 
 ## Environnement de travail
 
 La SARL IDCI-Consulting est une petite structure se composant (moi inclus) de cinq collaborateurs : Gabriel Bondaz (gérant/analyste développeur), Frédéric Bondaz (gérant), Baptiste Bouchereau (gérant/analyste développeur), Brahim Boukoufallah (développeur) et Eddie Barraco (développeur).
+
 Tous les postes de travail de la société sont sous système d'exploitation libre : Ubuntu 16.04. Tous les logiciels utilisés sont également libres et gratuits. Ceux couramment utilisés sont :
 
-- Git : un outil de gestion de version.
-- Docker : un outil permettant de créer des environnements (appelés conteneurs) isolant des applications.
-- Gimp : un logiciel de graphisme et retouche d'images.
-- Dia : un logiciel de création de schéma.
-- Umbrello : un logiciel permettant la création de diagrammes UML.
-- LibreOffice : un logiciel permettant de créer des documents de tous types : .doc, .pdf...
-- Chromium, Firefox : navigateurs web performants.
-- Vim, Gedit : éditeurs de texte.
+-   Git : un outil de gestion de version.
+-   Docker : un outil permettant de créer des environnements (appelés conteneurs) isolant des applications.
+-   Gimp : un logiciel de graphisme et retouche d'images.
+-   Dia : un logiciel de création de schéma.
+-   Umbrello : un logiciel permettant la création de diagrammes UML.
+-   LibreOffice : un logiciel permettant de créer des documents de tous types (.doc, .pdf, etc)
+-   Chromium, Firefox : navigateurs web performants.
+-   Vim, Gedit : éditeurs de texte.
 
 IDCI-Consulting dispose d'un serveur de développement et propose aussi des outils de travail en
 équipe :
@@ -78,11 +88,10 @@ J'interviens au sein de la société de manière polyvalente. Mes tâches vont d
 # Les projets pour lesquels j'ai développés
 
 ## Optedif
+
 ### Reprise du stage
 
-- Historique du projet
-
-J'avais précédemment travaillé sur le projet Optedif lors de mon stage de fin de DUT il y a un an. Au début de cette année de Licence Professionnelle, Optedif constituais encore une grosse partie de mes développements au sein d'IDCI-Consulting.
+J'avais précédemment travaillé sur le projet Optedif lors de mon stage de fin de DUT il y a un an. Au début de cette année de Licence Professionnelle, Optedif constituait encore une grosse partie de mes développements au sein d'IDCI-Consulting.
 
 ### Accompagnement vers la passation
 
@@ -93,6 +102,7 @@ Le code source était précédemment hébergé sur BitBucket et il a été migr�
 ## Upsters
 
 Upsters est une plateforme internet gratuite, permettant aux entrepreneurs d'être mis en relation avec des ressources dont ils auront besoin pour porter la création de leur(s) projet(s).
+
 Ce projet est issu de l'initiative de Ludovic Rerolle et de Julie Borgeot.
 
 ### Reprise du projet
@@ -110,6 +120,7 @@ En juillet 2017, La Lyon French Tech a émis un appel d'offre concernant une app
 # L'analyse du projet Inflexyon
 
 Inflexyon est une entreprise Lyonnaise qui propose un ensemble de service autour de cultures française et étrangères. Elle propose par exemple des cours de langue, des ateliers de type variés, un centre de d'examen, des aides au logement et d'autres choses.
+
 Inflexyon existe depuis près de 10 ans et a vu son besoin d'un système d'information complexe augmenter progressivement. IDCI-Consulting a été sollicité pour apporter son analyse du SI actuel et pour exprimer un ensemble de proposition dans le but de l'améliorer. L'idée sous-jacente est que si nos propositions d'améliorations ainsi que notre estimation de leurs coûts correspond aux attentes d'Inflexyon, IDCI-Consulting serait engagé pour réaliser ces développements.
 
 Notre intervention s'est déroulé en trois étapes :
@@ -142,6 +153,22 @@ Pour répondre aux problématiques exprimées nous avons rapidement proposé que
 
 Dans cet objectif d'unification nous avons commencés par redéfinir ensemble le vocabulaire auquel nous aurons à nous cantonner.
 
-
 ## Présentation devant les équipes Inflexyon
 
+# Bibliographie & Sitographie
+
+## Livres
+
+Clean Code - Robert Cecile Martin
+
+## Site Web
+
+Site officiel de Symfony : [http://www.symfony.com](http://www.symfony.com)
+
+Site officiel de VueJs : [https://vuejs.org/](https://vuejs.org/)
+
+Vim documentation en ligne : [http://vimdoc.sourceforge.net/htmldoc/](http://vimdoc.sourceforge.net/htmldoc/)
+
+RFC 2616 : [https://tools.ietf.org/html/rfc2616](https://tools.ietf.org/html/rfc2616)
+
+Site de questions/réponses collaboratifs : [http://stackoverflow.com/](http://stackoverflow.com/)
