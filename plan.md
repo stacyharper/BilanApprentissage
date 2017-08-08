@@ -10,10 +10,10 @@
 ## IDCI-Consulting
 - Coupier Couler
 
-## Environnement de travail
+## Environnement de travail
 - Coupier Couler
 
-## Mon rôle
+## Mon rôle
 - Coupier Couler
 
 # Les projets pour lesquels j'ai développés
@@ -22,7 +22,7 @@
 ### Reprise du stage
 - Historique du projet
 
-### Accompagnement vers la passation
+### Accompagnement vers la passation
 - Migration du systeme de versionning du code
 - Transformation de l'architecture
 
@@ -31,7 +31,7 @@
 - Projet développé par un débutant Symfony
 - État non terminé
 
-### État actuel du projet
+### État actuel du projet
 - Projet répondant à l'appel d'offre de Lyon French Tech
 
 # L'analyse du projet Inflexyon
