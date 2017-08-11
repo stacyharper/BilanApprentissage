@@ -96,7 +96,7 @@ L'idée d'utiliser ce type d'outil émane de moi et j'ai sélectionné et mis en
 
 J'interviens au sein de la société de manière polyvalente. Mes tâches vont du développement d'outil internes jusqu'à l'élaboration d'application web client à forte plus-value, complexes et nécessitant un travail d'équipe ainsi que des connaissances techniques sur lesquelles je monte en compétence. Je travaille principalement sur les technologies du web, à savoir PHP, JavaScript, HTML et CSS. J'utilise les frameworks Symfony et VueJs. Et base mes travaux sur des technologies uniquement open source.
 
-# Les projets pour lesquels j'ai développés
+# Les projets
 
 Dans cette partie je vais évoquer les différents projets pour lesquels j'ai contribué. Je commencerais par présenter ces projets. J'expliquerais ensuite dans quelle mesure j'ai contribué aux projets. Enfin je rapporterais l'état actuel ainsi que les évolutions envisageables pour ces projets.
 
@@ -145,6 +145,8 @@ Upsters n'était pas fonctionnel lorsque nous avons repris le projet. Un grand n
 En juillet 2017, La Lyon French Tech a émis un appel d'offre concernant une application de mise en relation de professionnel correspondant beaucoup au projet Upsters. Dozee à donc répondu à cet appel d'offre. Dozee espérait premièrement obtenir un partenariat avec IDCI-Consulting. Il voulait s'assurer une équipe de développeur capable de faire évoluer Upsters pour le faire correspondre plus exactement avec l'appel d'offre. Nous avons été conduis à décliner cette demande, faute de ressource disponible sur la période de septembre. Dozee a donc dû chercher de nouveaux collaborateurs pour continuer les dev sur le projet.
 
 # L'analyse du projet Inflexyon
+
+![Imprimé écran Inflexyon](./img/screenshot/inflexyon.png)
 
 Inflexyon est une entreprise Lyonnaise qui propose un ensemble de service autour de cultures française et étrangères. Elle propose par exemple des cours de langue, des ateliers de différents type, un centre d'examen, des aides au logement et bien d'autres choses.
 
@@ -229,6 +231,20 @@ Les schémas correspondent à la représentation des données en utilisant le la
 ![Imprimé écran lot agence](./img/inflexyon/agence.png)
 
 ## Présentation devant les équipes Inflexyon
+
+C'est le mercredi 19 juillet que nous avons finalement présentés notre compte rendu devant toute l'équipe d'Inflexyon. Cette présentation à été pour nous tous l'occasion d'échanger et de répondre aux différentes questions et inquiétudes de nos interlocuteurs.
+
+# Mes retours
+
+Dans cette partie je vais exprimer mes retours positifs et négatifs sur cette année donc sur la licence ainsi que sur mon entreprise.
+
+## IDCI Consulting
+
+IDCI Consulting à été pour moi le parfait milieu pour m'épanouir. J'y ai pu exercé ma créativité et laisser exprimer mon instinct et mes envies d'expérimentation. J'ai tout de même disposé d'un cadre suffisamment strict pour me guider vers les meilleures pistes de conception et pour me fournir un socle d'expérience forte.
+
+## Licence Pro METINET
+
+La licence professionnelle METINET à su m'apporter de solides bases dans un ensemble de matières. Matières que je n'avais pas forcement pu expérimenter au sein de mon entreprise. Également certains cours, en particuliers ceux de Guéry Boris, m'ont permis de remettre en cause un très grand nombre de concept que je pensais acquis en me faisant me poser un ensemble de questions concernant le développement.
 
 # Bibliographie & Sitographie
 
