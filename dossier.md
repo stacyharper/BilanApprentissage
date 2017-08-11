@@ -1,4 +1,4 @@
-# Remerciements
+# Remerciements
 
 Je tiens à remercier dans un premier temps, toute l'équipe pédagogique de l'IUT informatique de Bourg-en-Bresse et les intervenants professionnels de la formation METINET, pour nous avoir transmis leurs expériences.
 
@@ -7,7 +7,7 @@ Je remercie plus particulièrement Brahim Boukoufallah pour sa disponibilité et
 
 Je remercie également Adrien Peytavie pour son accompagnement depuis mon stage en DUT jusqu'à cette année METINET.
 
-# Résumé
+# Résumé
 
 Un développeur full-stack maîtrise l'ensemble des domaines techniques constitutifs d'un projet informatique : administration système et hébergement, modèles de données, logique métier, interface utilisateur (avec l'aide d'un graphiste), expérience utilisateur (UX), recueil et compréhension des besoins.
 
@@ -31,7 +31,7 @@ IDCI-Consulting est une ESN au capital de 10 000 €, créée le 10 décembre 20
 
 En plus du développement, IDCI-Consulting propose des formations dans le domaine du web. Cela peut être pour ses clients afin de leur permettre de prendre en main leur site, ou pour d'autres entreprises soucieuses de découvrir des technologies de pointe. Enfin, IDCI-Consulting propose aux entreprises des consultants qui apportent à ces dernières un support et des compétences d'experts.
 
-## Environnement de travail
+## Environnement de travail
 
 La SARL IDCI-Consulting est une petite structure se composant (moi inclus) de cinq collaborateurs : Gabriel Bondaz (gérant/analyste développeur), Frédéric Bondaz (gérant), Baptiste Bouchereau (gérant/analyste développeur), Brahim Boukoufallah (développeur) et Eddie Barraco (développeur).
 
@@ -92,11 +92,11 @@ L'idée d'utiliser ce type d'outil émane de moi et j'ai sélectionné et mis en
 
 ![Imprimé écran Teampass](./img/screenshot/teampass.png)
 
-## Mon rôle
+## Mon rôle
 
 J'interviens au sein de la société de manière polyvalente. Mes tâches vont du développement d'outil internes jusqu'à l'élaboration d'application web client à forte plus-value, complexes et nécessitant un travail d'équipe ainsi que des connaissances techniques sur lesquelles je monte en compétence. Je travaille principalement sur les technologies du web, à savoir PHP, JavaScript, HTML et CSS. J'utilise les frameworks Symfony et VueJs. Et base mes travaux sur des technologies uniquement open source.
 
-# Les projets pour lesquels j'ai développés
+# Les projets pour lesquels j'ai développés
 
 Dans cette partie je vais évoquer les différents projets pour lesquels j'ai contribué. Je commencerais par présenter ces projets. J'expliquerais ensuite dans quelle mesure j'ai contribué aux projets. Enfin je rapporterais l'état actuel ainsi que les évolutions envisageables pour ces projets.
 
@@ -106,7 +106,7 @@ Dans cette partie je vais évoquer les différents projets pour lesquels j'ai co
 
 Optedif est un outil de mise en relations entre des personnes qui donnent des formations et des personnes qui en cherche. Il est basé sur le framework Symfony 2.8 ainsi que d'une base de donnée Mysql. Il est le fruit d'un développement from scratch datant de 2016. Cette plateforme à beaucoup évolué depuis sa création et est passé entre les mains de plusieurs développeurs.
 
-### Reprise du projet
+### Reprise du projet
 
 IDCI-Consulting a repris le projet début 2017. J'ai donc travaillé sur Optedif depuis le début de mon stage ainsi que durant une partie de ma Licence Pro. Optedif constituait encore au début de cette année de Licence Professionnelle, une grosse partie de mes développements au sein d'IDCI-Consulting.
 
@@ -120,7 +120,7 @@ Le client utilise un serveur Odoo pour analyser les données clientes. L'applica
 
 Nous avons utilisé RabbitMQ qui est un gestionnaire de file d'attente de type Queuing pour cette tache. Concrètement l'application Symfony informait un tiers qu'une donnée avait été crée ou modifié. Ce tiers conservait l'information au travers une file d'attente. Enfin un process PHP se chargeait de récupérer ses informations pour traiter l'export vers Odoo. Ainsi ce n'était plus le process chargé de fournir une confirmation au client qui se chargeait de l'export. Nous avons donc fais grandir l'application de manière horizontale permettant de traiter des tâches couteuses en tâches de fond.
 
-### Accompagnement vers la passation
+### Accompagnement vers la passation
 
 En fin d'année 2016, IDCI-Consulting a exprimé sont besoin de ne plus maintenir le site Optedif. Notre client à donc trouvé un nouveau collaborateur pour continuer de développer son projet. IDCI-Consulting à tout de même été missionné pour simplifier la passation, répondre aux différentes interrogations ainsi que de migrer le code source vers une nouvelle plateforme.
 
@@ -140,7 +140,7 @@ Le site Upsters a été commencé par un développeur indépendant débutant sur
 
 Upsters n'était pas fonctionnel lorsque nous avons repris le projet. Un grand nombre de fonctionnalités était absente ou seulement partiellement en place. Il y a eu également quelques parties du code source à refactorer suites à des erreurs précédentes basées sur une méconnaissance de parties du framework.
 
-### État actuel du projet
+### État actuel du projet
 
 En juillet 2017, La Lyon French Tech a émis un appel d'offre concernant une application de mise en relation de professionnel correspondant beaucoup au projet Upsters. Dozee à donc répondu à cet appel d'offre. Dozee espérait premièrement obtenir un partenariat avec IDCI-Consulting. Il voulait s'assurer une équipe de développeur capable de faire évoluer Upsters pour le faire correspondre plus exactement avec l'appel d'offre. Nous avons été conduis à décliner cette demande, faute de ressource disponible sur la période de septembre. Dozee a donc dû chercher de nouveaux collaborateurs pour continuer les dev sur le projet.
 
@@ -183,7 +183,7 @@ Pour répondre aux problématiques exprimées nous avons rapidement proposé que
 
 Dans cette partie je vous présente le compte rendu partiel que nous avons rendu à Inflexyon.
 
-### Structure de l'architecture serveur 
+### Structure de l'architecture serveur
 
 Nous recommandons un serveur Debian 9 Stretch pour le support des applications récentes.
 
@@ -194,7 +194,7 @@ Nous recommandons un serveur Debian 9 Stretch pour le support des applications r
 
 Il est indispensable de disposer d'un serveur dédié avec un accès root via ssh. Notre proposition ne prend pas en compte les coûts d'hébergement ainsi que de location des noms de domaines. Nous pourrons les accompagner sur les démarches nécessaires à la mise en place du serveur.
 
-### Structure de l'application Symfony
+### Structure de l'application Symfony
 
 Nous préconisons le découpage de l'application Symfony en plusieurs bundles. Voici la liste exhaustive de ces bundles :
 
@@ -212,7 +212,7 @@ Nous préconisons l'utilisation des bundles existants suivant :
 - IDCIStepBundle : Gestion des formulaires (parcours inscription)
 - IDCINotificationBundle : Gestion des notifications
 
-### Schéma des entités du lot 1
+### Schéma des entités du lot 1
 
 Les schémas correspondent à la représentation des données en utilisant le langage UML. Ces schémas sont susceptibles d'évoluer lors de la phase de réalisation. Nous avons volontairement axé notre analyse autour d'unités fonctionnelles indépendantes.
 
@@ -232,7 +232,7 @@ Les schémas correspondent à la représentation des données en utilisant le la
 
 # Bibliographie & Sitographie
 
-## Lexique d'outils utilisés
+## Lexique d'outils utilisés
 
 - Odoo, anciennement OpenERP3 et Tiny ERP, est initialement un progiciel open-source de gestion intégré comprenant de très nombreux modules permettant de simplifier la gestion d'entreprise dans son ensemble. Le logiciel est utilisé par plus de deux millions d'utilisateurs pour gérer leurs entreprises à travers le monde4. Odoo est le système ERP open-source le plus populaire.
 - RabbitMQ est un logiciel d'agent de messages open source qui implémente le protocole Advanced Message Queuing (AMQP). Le serveur RabbitMQ est écrit dans le langage de programmation Erlang
@@ -241,7 +241,7 @@ Les schémas correspondent à la représentation des données en utilisant le la
 
 - Clean Code - Robert Cecile Martin
 
-## Site Web
+## Site Web
 
 - Site officiel de Symfony : [http://www.symfony.com](http://www.symfony.com)
 - Site officiel de VueJs : [https://vuejs.org/](https://vuejs.org/)
