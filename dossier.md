@@ -9,11 +9,9 @@ Je remercie également Adrien Peytavie pour son accompagnement depuis mon stage 
 
 # Résumé
 
-Un développeur full-stack maîtrise l'ensemble des domaines techniques constitutifs d'un projet informatique : administration système et hébergement, modèles de données, logique métier, interface utilisateur (avec l'aide d'un graphiste), expérience utilisateur (UX), recueil et compréhension des besoins.
+La licence professionnelle METINET se porte précisément sur les technologies web et comprend un apprentissage des différents processus de la conception jusqu'aux développements.
 
-La licence professionnelle METINET se porte plus précisément sur les technologies web et comprend un apprentissage des différents processus de la conception jusqu'aux développements.
-
-Cette licence est basée sur une alternance de période de cours et d'entreprise. C'est grâce à ces dernières que les étudiants ont la possibilité de gagner rapidement une solide expérience professionnelle. J'ai dont eu la chance d'avoir un aperçu de mon futur métier lors de mon implication sur les différents projets au sein de mon entreprise IDCI-Consulting.
+Cette licence est basée sur une alternance de période de cours et d'entreprise. C'est grâce à ces dernières que les étudiants ont la possibilité de gagner rapidement une solide expérience professionnelle. J'ai dont eu la chance d'avoir un aperçu de mon futur métier lors de mon implication sur les différents projets au sein de l'entreprise [IDCI-Consulting](https://idci-consulting.fr)
 
 # Sommaire
 
@@ -21,7 +19,7 @@ Cette licence est basée sur une alternance de période de cours et d'entreprise
 
 IDCI-Consulting est une entreprise de services du numérique (ou ESN). Au cours de cette année, plusieurs missions m'ont été confiées.
 
-Ce rapport présente tout d'abord l'entreprise et mon environnement de travail, et rend compte du développement des différentes missions par un descriptif de celles-ci suivi d'une étude fonctionnelle et technologique.
+Ce rapport présente tout d'abord l'entreprise et son environnement de travail, et rend compte du développement des différentes missions par un descriptif de celles-ci suivi d'une étude fonctionnelle et technologique.
 
 Il se conclura par les évolutions futures des projets et par un bilan sur la globalité de ma formation.
 
@@ -29,13 +27,13 @@ Il se conclura par les évolutions futures des projets et par un bilan sur la gl
 
 IDCI-Consulting est une ESN au capital de 10 000 €, créée le 10 décembre 2007 à l'initiative de Gabriel Bondaz et Frédéric Bondaz. L'activité principale consiste en la conception, le développement et le maintien de sites web s'appuyant sur des technologies open source : il s'agit généralement d'applications web PHP complexes telles que des solutions e-commerce, de la gestion d'événements, d'outils internes à d'autres entreprises, etc.
 
-En plus du développement, IDCI-Consulting propose des formations dans le domaine du web. Cela peut être pour ses clients afin de leur permettre de prendre en main leur site, ou pour d'autres entreprises soucieuses de découvrir des technologies de pointe. Enfin, IDCI-Consulting propose aux entreprises des consultants qui apportent à ces dernières un support et des compétences d'experts.
+En plus du développement, IDCI-Consulting propose des formations dans le domaine du développement informatique. Cela peut être pour ses clients afin de leur permettre de prendre en main leur site, ou pour d'autres entreprises soucieuses de découvrir des technologies de pointe. Enfin, IDCI-Consulting propose aux entreprises des consultants qui apportent à ces dernières un support et des compétences d'experts.
 
 ## Environnement de travail
 
 La SARL IDCI-Consulting est une petite structure se composant (moi inclus) de cinq collaborateurs : Gabriel Bondaz (gérant/analyste développeur), Frédéric Bondaz (gérant), Baptiste Bouchereau (gérant/analyste développeur), Brahim Boukoufallah (développeur) et Eddie Barraco (développeur).
 
-Tous les postes de travail de la société sont sous système d'exploitation libre : Ubuntu 16.04. Tous les logiciels utilisés sont également libres et gratuits. Ceux couramment utilisés sont :
+Tous les postes de travail de la société sont sous système d'exploitation libre : Ubuntu. Tous les logiciels utilisés sont également libres et gratuits. Ceux couramment utilisés sont :
 
 - Git : un outil de gestion de version.
 - Docker : un outil permettant de créer des environnements (appelés conteneurs) isolant des applications.
@@ -240,13 +238,17 @@ Dans cette partie je vais exprimer mes retours positifs et négatifs sur cette a
 
 ## IDCI Consulting
 
-IDCI Consulting à été pour moi le parfait milieu pour m'épanouir. J'y ai pu exercé ma créativité et laisser exprimer mon instinct et mes envies d'expérimentation. J'ai tout de même disposé d'un cadre suffisamment strict pour me guider vers les meilleures pistes de conception et pour me fournir un socle d'expérience forte.
+IDCI Consulting à été pour moi le parfait milieu pour m'épanouir professionnellement. J'y ai pu exercé ma créativité et laisser exprimer mon instinct et mes envies d'expérimentation. J'ai tout de même disposé d'un cadre suffisamment strict pour me guider vers les meilleures pistes de conception et pour me fournir un socle d'expérience forte. Je suis resté entouré de développeurs compétents et intègre dans leurs choix.
 
 ## Licence Pro METINET
 
-La licence professionnelle METINET à su m'apporter de solides bases dans un ensemble de matières. Matières que je n'avais pas forcement pu expérimenter au sein de mon entreprise. Également certains cours, en particuliers ceux de Guéry Boris, m'ont permis de remettre en cause un très grand nombre de concept que je pensais acquis en me faisant me poser un ensemble de questions concernant le développement.
+La licence professionnelle METINET à su m'apporter de solides bases dans un ensemble de matières. Matières dont je n'ai pas forcement l'occasion de pratiquer au sein de mon entreprise. Également certains cours, en particuliers ceux de Guéry Boris, m'ont permis de remettre en cause un très grand nombre de concept que je pensais acquis en me faisant me poser un ensemble de questions concernant le développement.
 
 # Bibliographie & Sitographie
+
+## Lexique du vocabulaire
+
+Un développeur full-stack maîtrise l'ensemble des domaines techniques constitutifs d'un projet informatique : administration système et hébergement, modèles de données, logique métier, interface utilisateur (avec l'aide d'un graphiste), expérience utilisateur (UX), recueil et compréhension des besoins.
 
 ## Lexique d'outils utilisés
 
