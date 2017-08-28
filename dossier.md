@@ -144,13 +144,17 @@ Le site Upsters a été commencé par un développeur indépendant débutant sur
 
 Upsters n'était pas fonctionnel lorsque nous avons repris le projet. Un grand nombre de fonctionnalités était absente ou seulement partiellement en place. Il y a eu également quelques parties du code source à améliorer suites à des erreurs précédentes basées sur une méconnaissance de parties du framework.
 
-[TODO plus de contenu sur ce que j'ai fait, méthode agile, etc]
+J'ai réalisé un très grand nombre de petites choses sur ce projet. Il ne serait pas pertinent d'en faire ici une liste exhaustive. En revanche c'est la une bonne occasion de présenter notre méthode de développement.
+
+Au sein d'IDCI nous tenons à utiliser des méthodes de développement le plus proche des méthodes agiles. Les objectifs sont généralement d'ajouter des fonctionnalités de manière incrémentale et d'être toujours au plus proche de ce que le client veux. Le cas d'Upsters est un exemple typique de cette méthode de développement. Nous n'utilisons pas de méthode agile normé telle que Scrum à proprement parler, mais nous basons le développement autour de tickets. En cas de besoin de fonctionnalité ou de correction d'un bug, le client ouvre un ticket sur notre application Redmine en donnant le plus de détail possible sur sa demande. Nous commençons un échange dans le but d'obtenir tous les tenants et aboutissant des ajouts et/ou modifications à effectuer. Enfin nous devisons un temps pour réaliser ce ticket et nous partons sur le développement.
+
+La méthode des tickets permet d'archiver les échanges avec le client ainsi que de garder un suivit clair de l'avancement d'un projet. Elle permet également de simplifier la facturation car elle convient d'un accord liant un ensemble de tache avec un temps de développement facturé. Nous basons autant que possible nos développement autour de cette méthode. Elle est le socle de tous nos projets.
 
 ### État actuel du projet
 
 En juillet 2017, La Lyon French Tech a émis un appel d'offre concernant une application de mise en relation de professionnel correspondant beaucoup au projet Upsters. Dozee à donc répondu à cet appel d'offre. Dozee espérait premièrement obtenir un partenariat avec IDCI-Consulting. Il voulait s'assurer une équipe de développeur capable de faire évoluer Upsters pour le faire correspondre plus exactement avec l'appel d'offre. Nous avons été conduis à décliner cette demande, faute de ressource disponible sur la période de septembre. Dozee a donc dû chercher de nouveaux collaborateurs pour continuer les dev sur le projet.
 
-# Outil calendar
+# Outil de calendrier
 
 ## Un besoin de suivi
 
