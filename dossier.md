@@ -116,8 +116,12 @@ Un des développements les plus notables auxquels j'ai participé sur Optedif co
 
 Le client utilise un serveur Odoo (voir lexique) pour analyser les données clientes. L'application Symfony doit donc synchroniser ses données vers l'application Odoo via le protocole XML-RPC. Le souci est que l'export des données se faisait de manière synchrone sur la requête du navigateur web des clients. Ainsi le client devait attendre que les process soit terminés pour accéder aux pages web de réponse. Nous avons donc travaillé à désynchroniser cette tache d'export.
 
-[ TODO schéma ]
-Nous avons utilisé RabbitMQ qui est un gestionnaire de file d'attente de type Queuing pour cette tache. Concrètement l'application Symfony informait un tiers qu'une donnée avait été crée ou modifié. Ce tiers conservait l'information au travers une file d'attente. Enfin un process PHP se chargeait de récupérer ses informations pour traiter l'export vers Odoo. Ainsi ce n'était plus le process chargé de fournir une confirmation au client qui se chargeait de l'export. Nous avons donc fais grandir l'application de manière horizontale permettant de traiter des tâches couteuses en tâches de fond.
+Nous avons utilisé RabbitMq qui est un gestionnaire de file d'attente de type Queuing pour cette tache. Concrètement l'application Symfony informait un tiers qu'une donnée avait été crée ou modifié. Ce tiers conservait l'information au travers une file d'attente. Enfin un process PHP se chargeait de récupérer ses informations pour traiter l'export vers Odoo. Ainsi ce n'était plus le process chargé de fournir une confirmation au client qui se chargeait de l'export. Nous avons donc fais grandir l'application de manière horizontale permettant de traiter des tâches couteuses en tâches de fond.
+
+
+![Tâche synchrone](./diag/optedif-before.png)
+![Tâche asynchrone - Création d'un message RabbitMq](./diag/optedif-after1.png)
+![Tâche asynchrone - Consommation d'un message RabbitMq](./diag/optedif-after2.png)
 
 ### Accompagnement vers la passation
 
@@ -293,7 +297,7 @@ La licence professionnelle METINET à su m'apporter de solides bases dans un ens
 
 ## Mon avenir
 
-[TODO développer le cdi chez IDCI-Consulting]
+Aujourd'hui j'ai la chance de travailler au sein d'une équipe soudée et professionnelle qui partage mes valeurs du développement et qui veut de moi comme collaborateur. Est donc en discussion le projet de m'embaucher en CDI dés la fin de ma période de contrat d'apprentissage. J'ai pour objectif d'apporter sur la prochaine année à IDCI autant qu'elle m'a apporté au cours de la précédente, et plus encore. J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du monde professionnel du développement.
 
 # Bibliographie & Sitographie
 
