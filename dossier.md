@@ -298,7 +298,9 @@ La licence professionnelle METINET à su m'apporter de solides bases dans un ens
 
 ## Mon avenir
 
-Aujourd'hui j'ai la chance de travailler au sein d'une équipe soudée et professionnelle qui partage mes valeurs du développement et qui veut de moi comme collaborateur. Est donc en discussion le projet de m'embaucher en CDI dés la fin de ma période de contrat d'apprentissage. J'ai pour objectif d'apporter sur la prochaine année à IDCI autant qu'elle m'a apporté au cours de la précédente, et plus encore. J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du monde professionnel du développement.
+Aujourd'hui j'ai la chance de travailler au sein d'une équipe soudée et professionnelle qui partage mes valeurs du développement et qui veut de moi comme collaborateur. Est donc en discussion le projet de m'embaucher en CDI dés la fin de ma période de contrat d'apprentissage. J'ai pour objectif d'apporter sur la prochaine année à IDCI que ce qu'elle m'a apporté au cours de la précédente, et plus encore.
+
+J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du monde professionnel du développement. C'est sur cette licence professionnel que je termine mon cursur scolaire et que je me lance complétement dans la vie active.
 
 # Bibliographie & Sitographie
 
@@ -313,10 +315,12 @@ Aujourd'hui j'ai la chance de travailler au sein d'une équipe soudée et profes
 - Odoo, anciennement OpenERP3 et Tiny ERP, est initialement un progiciel open-source de gestion intégré comprenant de très nombreux modules permettant de simplifier la gestion d'entreprise dans son ensemble. Le logiciel est utilisé par plus de deux millions d'utilisateurs pour gérer leurs entreprises à travers le monde4. Odoo est le système ERP open-source le plus populaire.
 - RabbitMQ est un logiciel d'agent de messages open source qui implémente le protocole Advanced Message Queuing (AMQP). Le serveur RabbitMQ est écrit dans le langage de programmation Erlang
 - Framework Symfony : Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.
+- Framework VueJs : VuesJs est un framework évolutif pour construire des interfaces utilisateur. À la différence des autres frameworks monolithiques, Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale. Le cœur de la bibliothèque est concentré uniquement sur la partie vue, et il est vraiment simple de l’intégrer avec d’autres bibliothèques ou projets existants. D’un autre côté, Vue est tout à fait capable de faire tourner des applications web monopages quand il est couplé avec des outils modernes et des bibliothèques complémentaires.
 
 ## Livres et documentations
 
 - Clean Code - Robert Cecile Martin
+- RFC 2616 - HTTP
 
 ## Site Web
 
