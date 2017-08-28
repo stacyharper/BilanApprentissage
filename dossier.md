@@ -119,9 +119,10 @@ Le client utilise un serveur Odoo (voir lexique) pour analyser les données clie
 Nous avons utilisé RabbitMq qui est un gestionnaire de file d'attente de type Queuing pour cette tache. Concrètement l'application Symfony informait un tiers qu'une donnée avait été crée ou modifié. Ce tiers conservait l'information au travers une file d'attente. Enfin un process PHP se chargeait de récupérer ses informations pour traiter l'export vers Odoo. Ainsi ce n'était plus le process chargé de fournir une confirmation au client qui se chargeait de l'export. Nous avons donc fais grandir l'application de manière horizontale permettant de traiter des tâches couteuses en tâches de fond.
 
 
-![Tâche synchrone](./diag/optedif-before.png)
-![Tâche asynchrone - Création d'un message RabbitMq](./diag/optedif-after1.png)
-![Tâche asynchrone - Consommation d'un message RabbitMq](./diag/optedif-after2.png)
+Avant | Après
+:---:|:---:
+![Tâche synchrone](./diag/optedif-before.png) |  ![Tâche asynchrone - Création d'un message RabbitMq](./diag/optedif-after1.png)
+||![Tâche asynchrone - Consommation d'un message RabbitMq](./diag/optedif-after2.png)
 
 ### Accompagnement vers la passation
 
