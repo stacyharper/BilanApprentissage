@@ -145,6 +145,46 @@ Upsters n'était pas fonctionnel lorsque nous avons repris le projet. Un grand n
 
 En juillet 2017, La Lyon French Tech a émis un appel d'offre concernant une application de mise en relation de professionnel correspondant beaucoup au projet Upsters. Dozee à donc répondu à cet appel d'offre. Dozee espérait premièrement obtenir un partenariat avec IDCI-Consulting. Il voulait s'assurer une équipe de développeur capable de faire évoluer Upsters pour le faire correspondre plus exactement avec l'appel d'offre. Nous avons été conduis à décliner cette demande, faute de ressource disponible sur la période de septembre. Dozee a donc dû chercher de nouveaux collaborateurs pour continuer les dev sur le projet.
 
+# Outil calendar
+
+## Un besoin de suivi
+
+Les collaborateurs IDCI-Consulting utilisent l'outil Google Calendar pour la gestion de leurs calendriers. Cet outil permet d'avoir un suivit des projets sur lesquels nous travaillons ainsi que de partager des évènements entre nous. En revanche il ne permet pas d'avoir clairement un retour sur nos disponibilités. Il m'a été demandé de développer un outil se basant sur les API de Google Calendar pour afficher un certains nombre d'information. Dans un premier temps, seul les disponibilités devaient être calculées entre deux dates.
+
+## Framework utilisé
+
+Pour le développement de cet outil j'ai décidé d'utiliser le framework VueJs. VueJs est un framework javascript front exécuté dans le navigateur client. Cela permet d'avoir une application intéractive et qui ne fonctionne pas sur la base demande - réponse des applications PHP. L'utilisation de VueJs était également pour moi l'occasion de monter en compétence sur cette technologie qui est de plus en plus utilisé au sein du monde du web.
+
+## Outils utilisé
+
+Pour travailler avec les API Google, Google propose un outil client javascript permettant un acces simplifié aux différentes API. Via les API, j'ai donc la possibilité de récupérer l'ensemble des calendriers ainsi que des événements qui y sont contenus. Ainsi j'ai tout le loisir de traiter ces données pour l'afficher dans mon application VueJs.
+
+J'ai également profité de ce projet pour monter en compétence sur l'outil Webpack. Webpack est un outil de gestion de dépendance majoritairement utilisé dans les projets Nodejs. Il permet d'automatiser la génération de sources js, css et images fournis aux clients. Il permet entre autre de rendre compatible aux différents navigateurs tout les codes basés aux normes récentes.
+
+## Méthode de détection des éléments
+
+L'outil se base sur une grammaire précise pour détecter les agendas de nos collaborateurs ainsi que les évènements liés aux travaux facturé. Il prend compte du nom des éléments pour déterminer le type de celui-ci. Les éléments pris en compte dans le calcul des disponibilités sont ceux qui utilisent la forme 'Projet [ENTREPRISE]'. Nous avons donc définis une norme de notation permettant à l'outil de ne pas commettre d'erreur, de ne pas "oublier" d'évènements. Ainsi des erreurs humaines peuvent toujours subvenir.
+
+Une autre possibilité aurait été de créer des agendas spécifiques par projet. Tous les évènements contenus dans ces agendas serait utilisés pour calculer les disponibilités. Cela éviterait les fautes de frappes car l'outil ne chercherais plus à détecter les évènements. Il additionnerait les temps de tous les événements pour calculer les disponibilités.
+
+Dans un soucis de rétro-compatibilité ainsi que pour éviter d'être submergés d'agendas, nous avons décidé de préserver nos agendas actuels et donc de normer les évènements..
+
+## Rendu final
+
+L'application à besoin de se connecter au compte Google pour avoir accès aux bon calendriers. Ainsi elle récupère l'accès aux différents calendriers des collaborateurs.
+
+![L'application avant d'être connecté](./img/screenshot/calendar-need-login.png)
+
+![La page de connexion de Google](./img/screenshot/google-login-screen.png)
+
+Une fois l'accès validé, l'application récupère via les api tous les évènements de tous les calendriers des collaborateurs et calcul les disponibilités.
+
+![Le rendu du Calendar tool](./img/screenshot/calendar-informations.png)
+
+## Pistes d'amélioration de l'outil
+
+L'outil à pour objectif d'évoluer en fonction de nos besoins. Il pourra inclure d'autres fonctionnalités comme rendre des informations plus détaillées concernant le nombre d'heure passé par projet par exemple.
+
 # L'analyse du projet Inflexyon
 
 ![Imprimé écran Inflexyon](./img/screenshot/inflexyon.png)
@@ -259,12 +299,15 @@ La licence professionnelle METINET à su m'apporter de solides bases dans un ens
 
 ## Lexique du vocabulaire
 
-Un développeur full-stack maîtrise l'ensemble des domaines techniques constitutifs d'un projet informatique : administration système et hébergement, modèles de données, logique métier, interface utilisateur (avec l'aide d'un graphiste), expérience utilisateur (UX), recueil et compréhension des besoins.
+- Développeur full-stack : Un développeur full-stack maîtrise l'ensemble des domaines techniques constitutifs d'un projet informatique : administration système et hébergement, modèles de données, logique métier, interface utilisateur (avec l'aide d'un graphiste), expérience utilisateur (UX), recueil et compréhension des besoins.
+- Développement from scratch : Un développement from scratch signifie un développement à partir de rien. Le projet débute sans support ni base. Les développeur commencent depuis une page blanche.
+- Accessibilité : La notion d'accessibilité dans le développement web concerne l'utilisation de l'outil par des personnes handicapés. Cela regroupe un certains nombre de normes et de méthodes dans le but de rendre accessible à tous le monde l'outil.
 
 ## Lexique d'outils utilisés
 
 - Odoo, anciennement OpenERP3 et Tiny ERP, est initialement un progiciel open-source de gestion intégré comprenant de très nombreux modules permettant de simplifier la gestion d'entreprise dans son ensemble. Le logiciel est utilisé par plus de deux millions d'utilisateurs pour gérer leurs entreprises à travers le monde4. Odoo est le système ERP open-source le plus populaire.
 - RabbitMQ est un logiciel d'agent de messages open source qui implémente le protocole Advanced Message Queuing (AMQP). Le serveur RabbitMQ est écrit dans le langage de programmation Erlang
+- Framework Symfony : Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.
 
 ## Livres et documentations
 
@@ -272,6 +315,7 @@ Un développeur full-stack maîtrise l'ensemble des domaines techniques constitu
 
 ## Site Web
 
+- Wikipedia : [https://fr.wikipedia.org](https://fr.wikipedia.org)
 - Site officiel de Symfony : [http://www.symfony.com](http://www.symfony.com)
 - Site officiel de VueJs : [https://vuejs.org/](https://vuejs.org/)
 - Vim documentation en ligne : [http://vimdoc.sourceforge.net/htmldoc/](http://vimdoc.sourceforge.net/htmldoc/)
