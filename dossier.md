@@ -5,13 +5,13 @@ Je tiens à remercier dans un premier temps, toute l'équipe pédagogique de l'I
 Je tiens à remercier toute l'équipe d'IDCI-Consulting pour l'accompagnement qu'elle m'a apporté depuis déjà plus d'un an.
 Je remercie plus particulièrement Brahim Boukoufallah pour sa disponibilité et l'attention qu'il m'a consacrée jusqu'à aujourd'hui, ainsi que Baptiste Bouchereau et Gabriel Bondaz pour toute l'expérience dont ils m'ont fait profiter.
 
-Je remercie également Adrien Peytavie pour son accompagnement depuis mon stage en DUT jusqu'à cette année METINET.
+Je remercie également Adrien Peytavie pour son accompagnement depuis mon stage en DUT jusqu'à la fin de cette année METINET.
 
 # Résumé
 
 La licence professionnelle METINET se porte précisément sur les technologies web et comprend un apprentissage des différents processus de la conception jusqu'aux développements.
 
-Cette licence est basée sur une alternance de période de cours et d'entreprise. C'est grâce à ces dernières que les étudiants ont la possibilité de gagner rapidement une solide expérience professionnelle. J'ai dont eu la chance d'avoir un aperçu de mon futur métier lors de mon implication sur les différents projets au sein de l'entreprise [IDCI-Consulting](https://idci-consulting.fr)
+Cette licence est basée sur une alternance de période de cours et d'entreprise. C'est grâce à ces dernières que les étudiants ont la possibilité de gagner rapidement une solide expérience professionnelle. J'ai dont eu la chance d'avoir un aperçu de mon futur métier lors de mon implication sur les différents projets au sein de l'entreprise [IDCI-Consulting](https://www.idci-consulting.fr)
 
 # Sommaire
 
@@ -33,7 +33,7 @@ En plus du développement, IDCI-Consulting propose des formations dans le domain
 
 La SARL IDCI-Consulting est une petite structure se composant (moi inclus) de cinq collaborateurs : Gabriel Bondaz (gérant/analyste développeur), Frédéric Bondaz (gérant), Baptiste Bouchereau (gérant/analyste développeur), Brahim Boukoufallah (développeur) et Eddie Barraco (développeur).
 
-Tous les postes de travail de la société sont sous système d'exploitation libre : Ubuntu. Tous les logiciels utilisés sont également libres et gratuits. Ceux couramment utilisés sont :
+Tous les postes de travail de la société sont sous système d'exploitation libre : Ubuntu, Debian et ArchLinux. Tous les logiciels utilisés sont également libres et gratuits. Ceux couramment utilisés sont :
 
 - Git : un outil de gestion de version.
 - Docker : un outil permettant de créer des environnements (appelés conteneurs) isolant des applications.
@@ -114,13 +114,14 @@ Ce projet à pour moi été mes premières expériences avec le Framework Symfon
 
 Un des développements les plus notables auxquels j'ai participé sur Optedif concernait un problème de performance. Les manipulations des données prenait beaucoup de temps et cela rendait la navigation lente. Cette lenteur découlait d'un grand nombre d'actions exécuté pour manipuler les objets. Une des taches les plus gourmandes en ressource concernait les exportations vers Odoo.
 
-Le client utilise un serveur Odoo pour analyser les données clientes. L'application Symfony doit donc synchroniser ses données vers l'application Odoo via le protocole XML-RPC. Le souci est que l'export des données se faisait de manière synchrone sur la requête du navigateur web des clients. Ainsi le client devait attendre que les process soit terminés pour accéder aux pages web de réponse. Nous avons donc travaillé pour désynchroniser cette tache d'export.
+Le client utilise un serveur Odoo (voir lexique) pour analyser les données clientes. L'application Symfony doit donc synchroniser ses données vers l'application Odoo via le protocole XML-RPC. Le souci est que l'export des données se faisait de manière synchrone sur la requête du navigateur web des clients. Ainsi le client devait attendre que les process soit terminés pour accéder aux pages web de réponse. Nous avons donc travaillé à désynchroniser cette tache d'export.
 
+[ TODO schéma ]
 Nous avons utilisé RabbitMQ qui est un gestionnaire de file d'attente de type Queuing pour cette tache. Concrètement l'application Symfony informait un tiers qu'une donnée avait été crée ou modifié. Ce tiers conservait l'information au travers une file d'attente. Enfin un process PHP se chargeait de récupérer ses informations pour traiter l'export vers Odoo. Ainsi ce n'était plus le process chargé de fournir une confirmation au client qui se chargeait de l'export. Nous avons donc fais grandir l'application de manière horizontale permettant de traiter des tâches couteuses en tâches de fond.
 
 ### Accompagnement vers la passation
 
-En fin d'année 2016, IDCI-Consulting a exprimé sont besoin de ne plus maintenir le site Optedif. Notre client à donc trouvé un nouveau collaborateur pour continuer de développer son projet. IDCI-Consulting à tout de même été missionné pour simplifier la passation, répondre aux différentes interrogations ainsi que de migrer le code source vers une nouvelle plateforme.
+En fin d'année 2016, IDCI-Consulting a exprimé sont besoin de ne plus maintenir le site Optedif. Notre client à donc trouvé un nouveau collaborateur pour continuer de développer son projet. IDCI-Consulting à tout de même été missionné pour manager la passation, répondre aux différentes interrogations ainsi que de migrer le code source vers une nouvelle plateforme.
 
 Le code source était précédemment hébergé sur BitBucket et il a été migré sur un GitLab mis en place spécialement pour ce projet. La structure git du projet en elle-même à également été revue. Avant nous utilisions un ensemble de branche pour différencier les codes sources prod, pre-prod et dev. Il a finalement été décidé de passer à une structure plus simple basée sur deux branches master et dev. La modification de cette structure était à tester, vérifier et réaliser sur un repository de test pour assurer l'intégrité du projet.
 
@@ -128,7 +129,7 @@ Le code source était précédemment hébergé sur BitBucket et il a été migr�
 
 ![Imprimé écran Upsters](./img/screenshot/upsters.png)
 
-Upsters est une plateforme gratuite, permettant aux entrepreneurs d'être mis en relation avec des ressources dont ils auront besoin pour porter la création de leur(s) projet(s). Ce projet est issu de l'initiative de Ludovic Rerolle et de Julie Borgeot.
+Upsters est une plateforme gratuite, permettant aux entrepreneurs d'être mis en relation avec des ressources dont ils auront besoin pour porter la création de leur(s) projet(s). Ce projet est issu de l'initiative de [Ludovic Rerolle](https://www.linkedin.com/in/ludovic-rerolle-59354b21/) et de [Julie Borgeot](https://www.linkedin.com/in/julie-borgeot-2934775a/).
 
 ### Reprise du projet
 
@@ -137,6 +138,8 @@ Le site Upsters a été commencé par un développeur indépendant débutant sur
 ### Les développements sur Upsters
 
 Upsters n'était pas fonctionnel lorsque nous avons repris le projet. Un grand nombre de fonctionnalités était absente ou seulement partiellement en place. Il y a eu également quelques parties du code source à refactorer suites à des erreurs précédentes basées sur une méconnaissance de parties du framework.
+
+[ TODO plus de contenu sur ce que j'ai fais , méthode agile, etc ]
 
 ### État actuel du projet
 
@@ -162,7 +165,7 @@ Gabriel Bondaz et moi-même avons conduit Inflexyon à la réflexion de son SI a
 
 ## Entretiens chez Inflexyon
 
-Nous avons dont tout d'abord sollicité certains membres de l'équipe d'Inflexyon pour mieux cerner leurs besoins. 2 jours ont été consommés dans les locaux d'Inflexyon pour échanger avec l'équipe autour de différentes pistes d'amélioration.
+Nous avons dont tout d'abord sollicité certains membres de l'équipe d'Inflexyon pour mieux cerner leurs besoins. Deux jours ont été consommés dans les locaux d'Inflexyon pour échanger avec l'équipe autour de différentes pistes d'amélioration.
 
 Le SI en œuvre à cette époque fonctionnait comme suit :
 
@@ -196,7 +199,7 @@ Il est indispensable de disposer d'un serveur dédié avec un accès root via ss
 
 ### Structure de l'application Symfony
 
-Nous préconisons le découpage de l'application Symfony en plusieurs bundles. Voici la liste exhaustive de ces bundles :
+Inflexyon regroupe un ensemble de services qui se basent tous sur un socle commun. Nous avons pensé un certains nombre de bundle se basant tous sur un cœur unique. Voici la liste exhaustive de ces bundles :
 
 - Bundle InflexyonCustomer
 - Bundle InflexyonAccommodation
@@ -232,17 +235,25 @@ Les schémas correspondent à la représentation des données en utilisant le la
 
 C'est le mercredi 19 juillet que nous avons finalement présentés notre compte rendu devant toute l'équipe d'Inflexyon. Cette présentation à été pour nous tous l'occasion d'échanger et de répondre aux différentes questions et inquiétudes de nos interlocuteurs.
 
+## État du projet
+
+À ce jour nous n'avons pas de réponse de la part d'Inflexyon concernant la poursuite de ce projet ainsi que le début des développements.
+
 # Mes retours
 
 Dans cette partie je vais exprimer mes retours positifs et négatifs sur cette année donc sur la licence ainsi que sur mon entreprise.
 
 ## IDCI Consulting
 
-IDCI Consulting à été pour moi le parfait milieu pour m'épanouir professionnellement. J'y ai pu exercé ma créativité et laisser exprimer mon instinct et mes envies d'expérimentation. J'ai tout de même disposé d'un cadre suffisamment strict pour me guider vers les meilleures pistes de conception et pour me fournir un socle d'expérience forte. Je suis resté entouré de développeurs compétents et intègre dans leurs choix.
+IDCI Consulting à été pour moi le parfait milieu pour m'épanouir professionnellement. J'y ai pu exercé ma créativité et laisser exprimer mon instinct et mes envies d'expérimentation. J'ai tout de même disposé d'un cadre suffisamment strict pour me guider vers les meilleures pistes de conception et pour me fournir un socle d'expérience forte. Je suis resté entouré de développeurs compétents et intègre dans leurs choix. J'ai pu travailler sur différents projets avec des contraintes et objectifs variés. J'ai donc du développer mon sens de l'adaptation ainsi que celui de l'empathie pour me permettre de bien cerner les demandes de mes clients.
 
 ## Licence Pro METINET
 
-La licence professionnelle METINET à su m'apporter de solides bases dans un ensemble de matières. Matières dont je n'ai pas forcement l'occasion de pratiquer au sein de mon entreprise. Également certains cours, en particuliers ceux de Guéry Boris, m'ont permis de remettre en cause un très grand nombre de concept que je pensais acquis en me faisant me poser un ensemble de questions concernant le développement.
+La licence professionnelle METINET à su m'apporter de solides bases dans un ensemble de matières. Matières dont je n'ai pas forcement l'occasion de pratiquer au sein de mon entreprise. Je pense par exemple aux différents cours sur l'intégration ou j'ai eu l'occasion de travailler sur des outils comme Photoshop. Ceux de l'accessibilité m'ont également permis d'appréhender tous les enjeux ainsi que des méthodes pour répondre aux problématiques de ce domaine. Certains cours, en particuliers ceux de [Guéry Boris](https://www.linkedin.com/in/borisguery/), m'ont permis de remettre en cause un très grand nombre de concept que je pensais acquis en me faisant me poser multiples questions concernant le développement en général.
+
+## Mon avenir
+
+[TODO développer le cdi chez IDCI-Consulting]
 
 # Bibliographie & Sitographie
 
