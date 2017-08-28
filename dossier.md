@@ -114,9 +114,9 @@ Ce projet à pour moi été mes premières expériences avec le Framework Symfon
 
 Un des développements les plus notables auxquels j'ai participé sur Optedif concernait un problème de performance. Les manipulations des données prenait beaucoup de temps et cela rendait la navigation lente. Cette lenteur découlait d'un grand nombre d'actions exécuté pour manipuler les objets. Une des taches les plus gourmandes en ressource concernait les exportations vers Odoo.
 
-Le client utilise un serveur Odoo (voir lexique) pour analyser les données clientes. L'application Symfony doit donc synchroniser ses données vers l'application Odoo via le protocole XML-RPC. Le souci est que l'export des données se faisait de manière synchrone sur la requête du navigateur web des clients. Ainsi le client devait attendre que les process soit terminés pour accéder aux pages web de réponse. Nous avons donc travaillé à désynchroniser cette tache d'export.
+Le client utilise un serveur Odoo (voir lexique) pour analyser les données clientes. L'application Symfony doit donc synchroniser ses données vers l'application Odoo via le protocole XML-RPC. Le souci est que l'export des données se faisait de manière synchrone sur la requête du navigateur web des clients. Ainsi le client devait attendre que les processus soit terminés pour accéder aux pages web de réponse. Nous avons donc travaillé à désynchroniser cette tache d'export.
 
-Nous avons utilisé RabbitMq qui est un gestionnaire de file d'attente de type Queuing pour cette tache. Concrètement l'application Symfony informait un tiers qu'une donnée avait été crée ou modifié. Ce tiers conservait l'information au travers une file d'attente. Enfin un process PHP se chargeait de récupérer ses informations pour traiter l'export vers Odoo. Ainsi ce n'était plus le process chargé de fournir une confirmation au client qui se chargeait de l'export. Nous avons donc fais grandir l'application de manière horizontale permettant de traiter des tâches couteuses en tâches de fond.
+Nous avons utilisé RabbitMq qui est un gestionnaire de file d'attente de type Queuing pour cette tache. Concrètement l'application Symfony informait un tiers qu'une donnée avait été crée ou modifié. Ce tiers conservait l'information au travers une file d'attente. Enfin un processus PHP se chargeait de récupérer ses informations pour traiter l'export vers Odoo. Ainsi ce n'était plus le processus chargé de fournir une confirmation au client qui se chargeait de l'export. Nous avons donc fais grandir l'application de manière horizontale permettant de traiter des tâches couteuses en tâches de fond.
 
 
 Avant | Après
@@ -128,7 +128,7 @@ Avant | Après
 
 En fin d'année 2016, IDCI-Consulting a exprimé sont besoin de ne plus maintenir le site Optedif. Notre client à donc trouvé un nouveau collaborateur pour continuer de développer son projet. IDCI-Consulting à tout de même été missionné pour manager la passation, répondre aux différentes interrogations ainsi que de migrer le code source vers une nouvelle plateforme.
 
-Le code source était précédemment hébergé sur BitBucket et il a été migré sur un GitLab mis en place spécialement pour ce projet. La structure git du projet en elle-même à également été revue. Avant nous utilisions un ensemble de branche pour différencier les codes sources prod, pre-prod et dev. Il a finalement été décidé de passer à une structure plus simple basée sur deux branches master et dev. La modification de cette structure était à tester, vérifier et réaliser sur un repository de test pour assurer l'intégrité du projet.
+Le code source était précédemment hébergé sur BitBucket et il a été migré sur un GitLab mis en place spécialement pour ce projet. La structure git du projet en elle-même à également été revue. Avant nous utilisions un ensemble de branche pour différencier les codes sources prod, pre-prod et dev. Il a finalement été décidé de passer à une structure plus simple basée sur deux branches master et dev. La modification de cette structure était à tester, vérifier et réaliser sur un dépôt de test pour assurer l'intégrité du projet.
 
 ## Upsters
 
@@ -142,7 +142,7 @@ Le site Upsters a été commencé par un développeur indépendant débutant sur
 
 ### Les développements sur Upsters
 
-Upsters n'était pas fonctionnel lorsque nous avons repris le projet. Un grand nombre de fonctionnalités était absente ou seulement partiellement en place. Il y a eu également quelques parties du code source à refactorer suites à des erreurs précédentes basées sur une méconnaissance de parties du framework.
+Upsters n'était pas fonctionnel lorsque nous avons repris le projet. Un grand nombre de fonctionnalités était absente ou seulement partiellement en place. Il y a eu également quelques parties du code source à améliorer suites à des erreurs précédentes basées sur une méconnaissance de parties du framework.
 
 [TODO plus de contenu sur ce que j'ai fait, méthode agile, etc]
 
@@ -158,11 +158,11 @@ Les collaborateurs IDCI-Consulting utilisent l'outil Google Calendar pour la ges
 
 ## Framework utilisé
 
-Pour le développement de cet outil j'ai décidé d'utiliser le framework VueJs. VueJs est un framework javascript front exécuté dans le navigateur client. Cela permet d'avoir une application intéractive et qui ne fonctionne pas sur la base demande - réponse des applications PHP. L'utilisation de VueJs était également pour moi l'occasion de monter en compétence sur cette technologie qui est de plus en plus utilisé au sein du monde du web.
+Pour le développement de cet outil j'ai décidé d'utiliser le framework VueJs. VueJs est un framework javascript front exécuté dans le navigateur client. Cela permet d'avoir une application interactive et qui ne fonctionne pas sur la base demande - réponse des applications PHP. L'utilisation de VueJs était également pour moi l'occasion de monter en compétence sur cette technologie qui est de plus en plus utilisé au sein du monde du web.
 
 ## Outils utilisé
 
-Pour travailler avec les API Google, Google propose un outil client javascript permettant un acces simplifié aux différentes API. Via les API, j'ai donc la possibilité de récupérer l'ensemble des calendriers ainsi que des événements qui y sont contenus. Ainsi j'ai tout le loisir de traiter ces données pour l'afficher dans mon application VueJs.
+Pour travailler avec les API Google, Google propose un outil client javascript permettant un accès simplifié aux différentes API. Via les API, j'ai donc la possibilité de récupérer l'ensemble des calendriers ainsi que des événements qui y sont contenus. Ainsi j'ai tout le loisir de traiter ces données pour l'afficher dans mon application VueJs.
 
 J'ai également profité de ce projet pour monter en compétence sur l'outil Webpack. Webpack est un outil de gestion de dépendance majoritairement utilisé dans les projets Nodejs. Il permet d'automatiser la génération de sources js, css et images fournis aux clients. Il permet entre autre de rendre compatible aux différents navigateurs tous les codes basés aux normes récentes.
 
@@ -184,7 +184,7 @@ L'application à besoin de se connecter au compte Google pour avoir accès aux b
 
 Une fois l'accès validé, l'application récupère via les api tous les évènements de tous les calendriers des collaborateurs et calcul les disponibilités.
 
-![Le rendu du Calendar tool](./img/screenshot/calendar-informations.png)
+![Le rendu du Calendar Tool](./img/screenshot/calendar-informations.png)
 
 ## Pistes d'amélioration de l'outil
 
@@ -204,7 +204,7 @@ Notre intervention s'est déroulé en trois étapes :
 - La rédaction d'un document comprenant un récapitulatif de nos pistes d'amélioration ainsi qu'un devisage de coûts pour les réaliser.
 - Une présentation devant leurs équipes du projet global pour convaincre l'ensemble de l'équipe d'Inflexyon.
 
-Il a également été exprimé le besoin d'unifier les différents services pour simplifier le suivit des différents process.
+Il a également été exprimé le besoin d'unifier les différents services pour simplifier le suivit des différents processus.
 
 Gabriel Bondaz et moi-même avons conduit Inflexyon à la réflexion de son SI au cours de ces différentes étapes. Notre objectif était d'apporter un ou un ensemble d'outil permettant d'aider Inflexyon dans son développement d'offre toujours plus varié.
 
@@ -219,7 +219,7 @@ Le SI en œuvre à cette époque fonctionnait comme suit :
 
 Il a rapidement été convenu que la méthode actuelle ne convenait plus à la bonne croissance et ce pour plusieurs raisons :
 
-- Difficulté de suivi global des process
+- Difficulté de suivi global des processus
 - Redondance d'informations
 - Analyse de l'état de santé d'Inflexyon impossible
 - Impossibilité de partager le travail car chaque donnée est personnelle aux travailleurs
