@@ -11,11 +11,11 @@ Je remercie également Adrien Peytavie pour son accompagnement depuis mon stage 
 
 [IDCI-Consulting](https://www.idci-consulting.fr/) est une entreprise de services du numérique (ou ESN). Ce rapport présente tout d'abord l'entreprise et son environnement de travail, et rend compte du développement des différentes missions par un descriptif de celles-ci suivi d'une étude fonctionnelle et technologique.
 
-Les missions que sur lesquels j'ai contribué sont multiple. Tout d'abord je présenterais l'application Optedif sur laquelle j'ai débuté mes développements au cours de ce cycle d'apprentissage. Ensuite je reviendrais sur le projet Upsters que nous avons repris et portés à l'état fonctionnel.
+Les missions que sur lesquels j'ai contribué sont multiple. Tout d'abord je présenterais l'application [Optedif](https://optedif-formation.fr/) sur laquelle j'ai débuté mes développements au cours de ce cycle d'apprentissage. Ensuite je reviendrais sur le projet [Upsters](http://upsters.fr/) que nous avons repris et portés à l'état fonctionnel.
 
 J'ai également été chargé de développer une application interne permettant de calculer les disponibilités des collaborateurs d'IDCI-Consulting. Je présenterais donc les outils que j'ai utilisés et pourquoi. Je développerais également le fonctionnement de cet outil ainsi que ses évolutions futures.
 
-Enfin je présenterais au cours d'une dernière partie, tout le bilan d'une analyse que nous avons effectués du système d'information de la compagnie Inflexyon. Cette entreprise Lyonnaise qui ne cesse de se développer et qui doit faire évoluer son SI.
+Enfin je présenterais au cours d'une dernière partie, tout le bilan d'une analyse que nous avons effectués du système d'information de la compagnie [Inflexyon](http://www.inflexyon.com/). Cette entreprise Lyonnaise qui ne cesse de se développer et qui doit faire évoluer son SI.
 
 Je conclurais enfin par mes différents retours concernant l'entreprise mais également le cadre pédagogique de cette année ainsi que de l'évolution à court terme de ma vie professionnelle au sein d'IDCI-Consulting.
 
