@@ -316,6 +316,7 @@ J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du mo
 - Développeur full-stack : Un développeur full-stack maîtrise l'ensemble des domaines techniques constitutifs d'un projet informatique : administration système et hébergement, modèles de données, logique métier, interface utilisateur (avec l'aide d'un graphiste), expérience utilisateur (UX), recueil et compréhension des besoins.
 - Développement from scratch : Un développement from scratch signifie un développement à partir de rien. Le projet débute sans support ni base. Les développeurs commencent depuis une page blanche.
 - Accessibilité : La notion d'accessibilité dans le développement web concerne l'utilisation de l'outil par des personnes handicapés. Cela regroupe un certain nombre de normes et de méthodes dans le but de rendre accessible à tous le monde l'outil.
+- SI - Système d'information : Le système d'information est le véhicule des entités de l'organisation. Sa structure est constituée de l'ensemble des ressources (les personnels, le matériel, les logiciels, les procédures) organisées pour : collecter, stocker, traiter et communiquer les informations. Le système d'information coordonne, grâce à la structuration des échanges, les activités de l'organisation et lui permet ainsi, d'atteindre ses objectifs.
 
 ## Lexique d'outils utilisés
 
@@ -323,7 +324,6 @@ J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du mo
 - RabbitMq est un logiciel d'agent de messages open source qui implémente le protocole Advanced Message Queuing (AMQP). Le serveur RabbitMq est écrit dans le langage de programmation Erlang
 - Framework Symfony : Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.
 - Framework VueJs : VueJs est un framework évolutif pour construire des interfaces utilisateur. À la différence des autres frameworks monolithiques, Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale. Le cœur de la bibliothèque est concentré uniquement sur la partie vue, et il est vraiment simple de l'intégrer avec d’autres bibliothèques ou projets existants. D’un autre côté, Vue est tout à fait capable de faire tourner des applications web mono-pages quand il est couplé avec des outils modernes et des bibliothèques complémentaires.
-- SI - Système d'information : Le système d'information est le véhicule des entités de l'organisation. Sa structure est constituée de l'ensemble des ressources (les personnels, le matériel, les logiciels, les procédures) organisées pour : collecter, stocker, traiter et communiquer les informations. Le système d'information coordonne, grâce à la structuration des échanges, les activités de l'organisation et lui permet ainsi, d'atteindre ses objectifs.
 
 ## Livres et documentations
 
