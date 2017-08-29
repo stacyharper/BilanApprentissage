@@ -9,23 +9,25 @@ Je remercie également Adrien Peytavie pour son accompagnement depuis mon stage 
 
 # Résumé
 
-La licence professionnelle METINET se porte précisément sur les technologies web et comprend un apprentissage des différents processus de la conception jusqu'aux développements.
+[IDCI-Consulting](https://www.idci-consulting.fr/) est une entreprise de services du numérique (ou ESN). Ce rapport présente tout d'abord l'entreprise et son environnement de travail, et rend compte du développement des différentes missions par un descriptif de celles-ci suivi d'une étude fonctionnelle et technologique.
 
-Cette licence est basée sur une alternance de période de cours et d'entreprise. C'est grâce à ces dernières que les étudiants ont la possibilité de gagner rapidement une solide expérience professionnelle. J'ai dont eu la chance d'avoir un aperçu de mon futur métier lors de mon implication sur les différents projets au sein de l'entreprise [IDCI-Consulting](https://www.idci-consulting.fr)
+Les missions que sur lesquels j'ai contribué sont multiple. Tout d'abord je présenterais l'application Optedif sur laquelle j'ai débuté mes développements au cours de ce cycle d'apprentissage. Ensuite je reviendrais sur le projet Upsters que nous avons repris et portés à l'état fonctionnel.
 
-# Sommaire
+J'ai également été chargé de développer une application interne permettant de calculer les disponibilités des collaborateurs d'IDCI-Consulting. Je présenterais donc les outils que j'ai utilisés et pourquoi. Je développerais également le fonctionnement de cet outil ainsi que ses évolutions futures.
+
+Enfin je présenterais au cours d'une dernière partie, tout le bilan d'une analyse que nous avons effectués du système d'information de la compagnie Inflexyon. Cette entreprise Lyonnaise qui ne cesse de se développer et qui doit faire évoluer son SI.
+
+Je conclurais enfin par mes différents retours concernant l'entreprise mais également le cadre pédagogique de cette année ainsi que de l'évolution à court terme de ma vie professionnelle au sein d'IDCI-Consulting.
+
+Je vous remercie de votre lecture et espère avoir répondu aux instructions au mieux.
+
+# Table des matières
 
 # Introduction
 
-IDCI-Consulting est une entreprise de services du numérique (ou ESN). Au cours de cette année, plusieurs missions m'ont été confiées.
+## Rappel sur l'entreprise
 
-Ce rapport présente tout d'abord l'entreprise et son environnement de travail, et rend compte du développement des différentes missions par un descriptif de celles-ci suivi d'une étude fonctionnelle et technologique.
-
-Il se conclura par les évolutions futures des projets et par un bilan sur la globalité de ma formation.
-
-## IDCI-Consulting
-
-IDCI-Consulting est une ESN au capital de 10 000 €, créée le 10 décembre 2007 à l'initiative de Gabriel Bondaz et Frédéric Bondaz. L'activité principale consiste en la conception, le développement et le maintien de sites web s'appuyant sur des technologies open source : il s'agit généralement d'applications web PHP complexes telles que des solutions e-commerce, de la gestion d'événements, d'outils internes à d'autres entreprises, etc.
+IDCI-Consulting est une ESN au capital de 10 000 €, créée le 10 décembre 2007 à l'initiative de Gabriel Bondaz et Frédéric Bondaz. L'activité principale consiste en la conception, le développement et le maintien de sites web s'appuyant sur des technologies open source : il s'agit généralement d'applications web PHP complexes telles que des solutions de commerce en ligne, de la gestion d'événements, d'outils internes à d'autres entreprises, etc.
 
 En plus du développement, IDCI-Consulting propose des formations dans le domaine du développement informatique. Cela peut être pour ses clients afin de leur permettre de prendre en main leur site, ou pour d'autres entreprises soucieuses de découvrir des technologies de pointe. Enfin, IDCI-Consulting propose aux entreprises des consultants qui apportent à ces dernières un support et des compétences d'experts.
 
@@ -46,13 +48,13 @@ Tous les postes de travail de la société sont sous système d'exploitation lib
 
 IDCI-Consulting dispose d'un serveur de développement et propose aussi des outils de travail en équipe :
 
-### Un outil d'hébergement et de gestion de développement logiciels :
+### Un outil d'hébergement et de gestion de développement logiciels
 
 Une très grande majorité des codes open source sont aujourd'hui hébergés sur Github et sont disponibles via Git. C'est l'outil que nous avons utilisé majoritairement ces dernières années. Le code source n'est donc pas hébergé sur nos serveurs mais sur les serveurs de Github. C'est pourquoi IDCI-Consulting a mis à disposition un service similaire à Github : Gitlab. Gitlab nous permet à contrario de privatiser certains de nos codes sources.
 
 ![Imprimé écran Gitlab](./img/screenshot/gitlab.png)
 
-### Un outil de gestion de projets :
+### Un outil de gestion de projets
 
 Les demandes de mise à jour, d'évolution de logiciel et les reports de bogue de la part des clients sont dans les services informatiques très fréquentes. Pour éviter de fonctionner par mail et de se perdre dans une multitude d'informations, il est préférable d'utiliser des outils de gestion de projets.
 
@@ -68,7 +70,7 @@ IDCI-Consulting propose un service de stockage à ses collaborateurs : Owncloud
 
 ![Imprimé écran Owncloud](./img/screenshot/owncloud.png)
 
-### Un Wiki
+### Une base de connaissance
 
 Un wiki est un outil de travail collaboratif. C'est un site web librement modifiable par ses visiteurs, sans difficultés techniques, et qui permet la libre circulation de l'information au sein de l'entreprise.
 
@@ -76,7 +78,7 @@ Chez IDCI-Consulting, nous utilisons DokuWiki. La particularité de celui-ci est
 
 ![Imprimé écran Wiki](./img/screenshot/wiki.png)
 
-### Un Pad
+### Un outil d'édition de texte collaboratif.
 
 Le Pad est un outil d'édition de texte en direct et collaboratif. Il permet une prise de note groupé ainsi que le partage d'information légère simple et non protégé.
 
@@ -90,15 +92,15 @@ L'idée d'utiliser ce type d'outil émane de moi et j'ai sélectionné et mis en
 
 ![Imprimé écran Teampass](./img/screenshot/teampass.png)
 
-## Mon rôle
+## Mon rôle chez IDCI-Consulting
 
 J'interviens au sein de la société de manière polyvalente. Mes tâches vont du développement d'outil internes jusqu'à l'élaboration d'application web client à forte plus-value, complexes et nécessitant un travail d'équipe ainsi que des connaissances techniques sur lesquelles je monte en compétence. Je travaille principalement sur les technologies du web, à savoir PHP, JavaScript, HTML et CSS. J'utilise les frameworks Symfony et VueJs. Et base mes travaux sur des technologies uniquement open source.
 
-# Les projets
+# Les projets pour lesquels j'ai contribué
 
 Dans cette partie je vais évoquer les différents projets pour lesquels j'ai contribué. Je commencerais par présenter ces projets. J'expliquerais ensuite dans quelle mesure j'ai contribué aux projets. Enfin je rapporterais l'état actuel ainsi que les évolutions envisageables pour ces projets.
 
-## Optedif
+## Le projet Optedif
 
 ![Imprimé écran Optedif](./img/screenshot/optedif.png)
 
@@ -110,14 +112,13 @@ IDCI-Consulting a repris le projet début 2017. J'ai donc travaillé sur Optedif
 
 ### Nos développements sur Optedif
 
-Ce projet à pour moi été mes premières expériences avec le Framework Symfony. C'est sous la tutelle de Brahim Boukoufallah que j'ai pu faire progresser ma compréhension de Frameworks plus complexes.
+Ce projet à pour moi été ma première expérience avec le Framework Symfony. C'est sous la tutelle de Brahim Boukoufallah que j'ai pu faire progresser ma compréhension de Frameworks plus complexes.
 
 Un des développements les plus notables auxquels j'ai participé sur Optedif concernait un problème de performance. Les manipulations des données prenait beaucoup de temps et cela rendait la navigation lente. Cette lenteur découlait d'un grand nombre d'actions exécuté pour manipuler les objets. Une des taches les plus gourmandes en ressource concernait les exportations vers Odoo.
 
 Le client utilise un serveur Odoo (voir lexique) pour analyser les données clientes. L'application Symfony doit donc synchroniser ses données vers l'application Odoo via le protocole XML-RPC. Le souci est que l'export des données se faisait de manière synchrone sur la requête du navigateur web des clients. Ainsi le client devait attendre que les processus soit terminés pour accéder aux pages web de réponse. Nous avons donc travaillé à désynchroniser cette tache d'export.
 
 Nous avons utilisé RabbitMq qui est un gestionnaire de file d'attente de type Queuing pour cette tache. Concrètement l'application Symfony informait un tiers qu'une donnée avait été crée ou modifié. Ce tiers conservait l'information au travers une file d'attente. Enfin un processus PHP se chargeait de récupérer ses informations pour traiter l'export vers Odoo. Ainsi ce n'était plus le processus chargé de fournir une confirmation au client qui se chargeait de l'export. Nous avons donc fais grandir l'application de manière horizontale permettant de traiter des tâches couteuses en tâches de fond.
-
 
 Avant | Après
 :---:|:---:
@@ -130,7 +131,7 @@ En fin d'année 2016, IDCI-Consulting a exprimé sont besoin de ne plus mainteni
 
 Le code source était précédemment hébergé sur BitBucket et il a été migré sur un GitLab mis en place spécialement pour ce projet. La structure git du projet en elle-même à également été revue. Avant nous utilisions un ensemble de branche pour différencier les codes sources prod, pre-prod et dev. Il a finalement été décidé de passer à une structure plus simple basée sur deux branches master et dev. La modification de cette structure était à tester, vérifier et réaliser sur un dépôt de test pour assurer l'intégrité du projet.
 
-## Upsters
+## Le projet Upsters
 
 ![Imprimé écran Upsters](./img/screenshot/upsters.png)
 
@@ -142,37 +143,37 @@ Le site Upsters a été commencé par un développeur indépendant débutant sur
 
 ### Les développements sur Upsters
 
-Upsters n'était pas fonctionnel lorsque nous avons repris le projet. Un grand nombre de fonctionnalités était absente ou seulement partiellement en place. Il y a eu également quelques parties du code source à améliorer suites à des erreurs précédentes basées sur une méconnaissance de parties du framework.
+Upsters n'était pas fonctionnel lorsque nous avons repris le projet. Un grand nombre de fonctionnalités était absente ou seulement partiellement en place. Il y a eu également quelques parties du code source à améliorer suites à des erreurs précédentes basées sur une méconnaissance du framework.
 
-J'ai réalisé un très grand nombre de petites choses sur ce projet. Il ne serait pas pertinent d'en faire ici une liste exhaustive. En revanche c'est la une bonne occasion de présenter notre méthode de développement.
+J'ai réalisé un très grand nombre de petites choses sur ce projet. Il serait peu pertinent d'en faire ici une liste exhaustive. En revanche c'est la une bonne occasion de présenter notre méthode de développement.
 
-Au sein d'IDCI nous tenons à utiliser des méthodes de développement le plus proche des méthodes agiles. Les objectifs sont généralement d'ajouter des fonctionnalités de manière incrémentale et d'être toujours au plus proche de ce que le client veux. Le cas d'Upsters est un exemple typique de cette méthode de développement. Nous n'utilisons pas de méthode agile normé telle que Scrum à proprement parler, mais nous basons le développement autour de tickets. En cas de besoin de fonctionnalité ou de correction d'un bug, le client ouvre un ticket sur notre application Redmine en donnant le plus de détail possible sur sa demande. Nous commençons un échange dans le but d'obtenir tous les tenants et aboutissant des ajouts et/ou modifications à effectuer. Enfin nous devisons un temps pour réaliser ce ticket et nous partons sur le développement.
+Au sein d'IDCI nous tenons à utiliser des méthodes de développement le plus proche des méthodes agiles. Les objectifs sont généralement d'ajouter des fonctionnalités de manière incrémentale et d'être toujours au plus proche de ce que le client veut. Le cas d'Upsters est un exemple typique de cette méthode de développement. Nous n'utilisons pas de méthode agile normée telle que Scrum à proprement parler, mais nous basons nos développements autour de tickets. En cas de besoin de fonctionnalité ou de correction d'un bogue, le client ouvre un ticket sur notre application Redmine en donnant le plus de détail possible sur sa demande. Nous commençons un échange dans le but d'obtenir tous les tenants et aboutissant des ajouts et, ou modifications à effectuer. Enfin nous devisons un temps pour réaliser ce ticket et nous partons sur le développement.
 
-La méthode des tickets permet d'archiver les échanges avec le client ainsi que de garder un suivit clair de l'avancement d'un projet. Elle permet également de simplifier la facturation car elle convient d'un accord liant un ensemble de tache avec un temps de développement facturé. Nous basons autant que possible nos développement autour de cette méthode. Elle est le socle de tous nos projets.
+La méthode des tickets permet d'archiver les échanges avec le client ainsi que de garder un suivi clair de l'avancement d'un projet. Elle permet également de simplifier la facturation car elle convient d'un accord liant un ensemble de tache avec un temps de développement facturé. Nous basons autant que possible nos développements autour de cette méthode. Elle est le socle de tous nos projets.
 
 ### État actuel du projet
 
-En juillet 2017, La Lyon French Tech a émis un appel d'offre concernant une application de mise en relation de professionnel correspondant beaucoup au projet Upsters. Dozee à donc répondu à cet appel d'offre. Dozee espérait premièrement obtenir un partenariat avec IDCI-Consulting. Il voulait s'assurer une équipe de développeur capable de faire évoluer Upsters pour le faire correspondre plus exactement avec l'appel d'offre. Nous avons été conduis à décliner cette demande, faute de ressource disponible sur la période de septembre. Dozee a donc dû chercher de nouveaux collaborateurs pour continuer les dev sur le projet.
+En juillet 2017, La Lyon French Tech a émis un appel d'offre concernant une application de mise en relation de professionnel correspondant beaucoup au projet Upsters. Dozee à donc répondu à cet appel d'offre. Dozee espérait premièrement obtenir un partenariat avec IDCI-Consulting. Il voulait s'assurer une équipe de développeur capable de faire évoluer Upsters pour le faire correspondre plus exactement avec l'appel d'offre. Nous avons été conduis à décliner cette demande, faute de ressource disponible sur la période de septembre. Dozee a donc dû chercher de nouveaux collaborateurs pour continuer les développements sur le projet.
 
-# Outil de calendrier
+# Un outil de gestion des ressources
 
-## Un besoin de suivi
+## Le besoin de suivi
 
 Les collaborateurs IDCI-Consulting utilisent l'outil Google Calendar pour la gestion de leurs calendriers. Cet outil permet d'avoir un suivi des projets sur lesquels nous travaillons ainsi que de partager des évènements entre nous. En revanche il ne permet pas d'avoir clairement un retour sur nos disponibilités. Il m'a été demandé de développer un outil se basant sur les API de Google Calendar pour afficher un certain nombre d'informations. Dans un premier temps, seul les disponibilités devaient être calculées entre deux dates.
 
-## Framework utilisé
+## Un framework Front End
 
 Pour le développement de cet outil j'ai décidé d'utiliser le framework VueJs. VueJs est un framework javascript front exécuté dans le navigateur client. Cela permet d'avoir une application interactive et qui ne fonctionne pas sur la base demande - réponse des applications PHP. L'utilisation de VueJs était également pour moi l'occasion de monter en compétence sur cette technologie qui est de plus en plus utilisé au sein du monde du web.
 
-## Outils utilisé
+## Les autres technologies utilisées
 
-Pour travailler avec les API Google, Google propose un outil client javascript permettant un accès simplifié aux différentes API. Via les API, j'ai donc la possibilité de récupérer l'ensemble des calendriers ainsi que des événements qui y sont contenus. Ainsi j'ai tout le loisir de traiter ces données pour l'afficher dans mon application VueJs.
+Pour travailler avec les API Google, Google propose un outil client javascript permettant un accès simplifié aux différentes API. Je peux donc récupérer aisément l'ensemble des calendriers ainsi que des événements qui y sont contenus. Ainsi j'ai tout le loisir de traiter ces données pour l'afficher dans mon application VueJs.
 
 J'ai également profité de ce projet pour monter en compétence sur l'outil Webpack. Webpack est un outil de gestion de dépendance majoritairement utilisé dans les projets Nodejs. Il permet d'automatiser la génération de sources js, css et images fournis aux clients. Il permet entre autre de rendre compatible aux différents navigateurs tous les codes basés aux normes récentes.
 
-## Méthode de détection des éléments
+## Méthode de fonctionnement
 
-L'outil se base sur une grammaire précise pour détecter les agendas de nos collaborateurs ainsi que les évènements liés aux travaux facturé. Il prend compte du nom des éléments pour déterminer le type de celui-ci. Les éléments pris en compte dans le calcul des disponibilités sont ceux qui utilisent la forme 'Projet [ENTREPRISE]'. Nous avons donc définis une norme de notation permettant à l'outil de ne pas commettre d'erreur, de ne pas "oublier" d'évènements. Ainsi des erreurs humaines peuvent toujours subvenir.
+L'outil se base sur une grammaire précise pour détecter les agendas de nos collaborateurs ainsi que les évènements liés aux travaux facturé. Il prend compte du nom des éléments pour déterminer le type de celui-ci. Les éléments pris en compte dans le calcul des disponibilités sont ceux qui utilisent la forme 'Projet [ENTREPRISE]'. Nous avons donc définis une norme de notation permettant à l'outil de ne pas commettre d'erreur, de ne pas "oublier" d'évènements. Des erreurs humaines peuvent ainsi toujours subvenir si la norme est oublié.
 
 Une autre possibilité aurait été de créer des agendas spécifiques par projet. Tous les évènements contenus dans ces agendas serait utilisés pour calculer les disponibilités. Cela éviterait les fautes de frappes car l'outil ne chercherait plus à détecter les évènements. Il additionnerait les temps de tous les événements pour calculer les disponibilités.
 
@@ -188,11 +189,13 @@ L'application à besoin de se connecter au compte Google pour avoir accès aux b
 
 Une fois l'accès validé, l'application récupère via les api tous les évènements de tous les calendriers des collaborateurs et calcul les disponibilités.
 
+Ce que les photographies ne montrent pas c'est que l'application est interactive. Les blocs de sélection de date en haut ne sont pas validé par un bouton. Le contenu de la page s'actualise automatiquement lorsque une nouvelle date est sélectionné.
+
 ![Le rendu du Calendar Tool](./img/screenshot/calendar-informations.png)
 
-## Pistes d'amélioration de l'outil
+## Pistes d'amélioration
 
-L'outil à pour objectif d'évoluer en fonction de nos besoins. Il pourra inclure d'autres fonctionnalités comme rendre des informations plus détaillées concernant le nombre d'heures passé par projet par exemple.
+L'outil à pour objectif d'évoluer en fonction de nos besoins. Il pourra par exemple inclure d'autres fonctionnalités comme rendre des informations plus détaillées concernant le nombre d'heures passé par projet.
 
 # L'analyse du projet Inflexyon
 
@@ -205,7 +208,7 @@ Inflexyon existe depuis près de 10 ans et a vu son besoin de système d'informa
 Notre intervention s'est déroulé en trois étapes :
 
 - Des entretiens avec certaines personnes travaillant chez Inflexyon dans le but d'obtenir un ensemble d'information concernant leurs métiers et pour mieux cerner leurs différents besoins.
-- La rédaction d'un document comprenant un récapitulatif de nos pistes d'amélioration ainsi qu'un devisage de coûts pour les réaliser.
+- La rédaction d'un document comprenant un récapitulatif de nos pistes d'amélioration ainsi qu'un devis des coûts pour les réaliser.
 - Une présentation devant leurs équipes du projet global pour convaincre l'ensemble de l'équipe d'Inflexyon.
 
 Il a également été exprimé le besoin d'unifier les différents services pour simplifier le suivit des différents processus.
@@ -298,11 +301,11 @@ IDCI Consulting a été pour moi le parfait milieu pour m'épanouir professionne
 
 ## Licence Pro METINET
 
-La licence professionnelle METINET a su m'apporter de solides bases dans un ensemble de matières. Matières dont je n'ai pas forcément l'occasion de pratiquer au sein de mon entreprise. Je pense par exemple aux différents cours sur l'intégration ou j'ai eu l'occasion de travailler sur des outils comme Photoshop. Ceux de l'accessibilité m'ont également permis d'appréhender tous les enjeux ainsi que des méthodes pour répondre aux problématiques de ce domaine. Certains cours, en particulier ceux de [Guéry Boris](https://www.linkedin.com/in/borisguery/), m'ont permis de remettre en cause un très grand nombre de concepts que je pensais acquis en me faisant me poser multiples questions concernant le développement en général.
+La licence professionnelle METINET a su m'apporter de solides bases dans un ensemble de matières. Matières dont je n'ai pas forcément l'occasion de pratiquer au sein de mon entreprise. Je pense par exemple aux différents cours sur l'intégration où j'ai eu l'occasion de travailler sur des outils comme Photoshop. Ceux de l'accessibilité m'ont également permis d'appréhender tous les enjeux ainsi que des méthodes pour répondre aux problématiques de ce domaine. Certains cours, en particulier ceux de [Guéry Boris](https://www.linkedin.com/in/borisguery/), m'ont permis de remettre en cause un très grand nombre de concepts que je pensais acquis en me faisant me poser multiples questions concernant le développement en général.
 
 ## Mon avenir
 
-Aujourd'hui j'ai la chance de travailler au sein d'une équipe soudée et professionnelle qui partage mes valeurs du développement et qui veut de moi comme collaborateur. Est donc en discussion le projet de m'embaucher en CDI dès la fin de ma période de contrat d'apprentissage. J'ai pour objectif d'apporter sur la prochaine année à IDCI que ce qu'elle m'a apporté au cours de la précédente, et plus encore.
+Aujourd'hui j'ai la chance de travailler au sein d'une équipe soudée et professionnelle qui partage mes valeurs du développement et qui veut de moi comme collaborateur. Est donc en discussion le projet de m'embaucher en CDI dès la fin de ma période de contrat d'apprentissage. J'ai pour objectif d'apporter autant sur la prochaine année à IDCI que ce qu'elle m'a apporté au cours de la précédente, et plus encore.
 
 J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du monde professionnel du développement. C'est sur cette licence professionnelle que je termine mon cursus scolaire et que je me lance complètement dans la vie active.
 
@@ -320,6 +323,7 @@ J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du mo
 - RabbitMq est un logiciel d'agent de messages open source qui implémente le protocole Advanced Message Queuing (AMQP). Le serveur RabbitMq est écrit dans le langage de programmation Erlang
 - Framework Symfony : Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.
 - Framework VueJs : VueJs est un framework évolutif pour construire des interfaces utilisateur. À la différence des autres frameworks monolithiques, Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale. Le cœur de la bibliothèque est concentré uniquement sur la partie vue, et il est vraiment simple de l'intégrer avec d’autres bibliothèques ou projets existants. D’un autre côté, Vue est tout à fait capable de faire tourner des applications web mono-pages quand il est couplé avec des outils modernes et des bibliothèques complémentaires.
+- SI - Système d'information : Le système d'information est le véhicule des entités de l'organisation. Sa structure est constituée de l'ensemble des ressources (les personnels, le matériel, les logiciels, les procédures) organisées pour : collecter, stocker, traiter et communiquer les informations. Le système d'information coordonne, grâce à la structuration des échanges, les activités de l'organisation et lui permet ainsi, d'atteindre ses objectifs.
 
 ## Livres et documentations
 
@@ -328,7 +332,7 @@ J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du mo
 
 ## Site Web
 
-- Wikipedia : [https://fr.wikipedia.org](https://fr.wikipedia.org)
+- Wikipédia : [https://fr.wikipedia.org](https://fr.wikipedia.org)
 - Site officiel de Symfony : [http://www.symfony.com](http://www.symfony.com)
 - Site officiel de VueJs : [https://vuejs.org/](https://vuejs.org/)
 - Vim documentation en ligne : [http://vimdoc.sourceforge.net/htmldoc/](http://vimdoc.sourceforge.net/htmldoc/)
