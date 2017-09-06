@@ -15,11 +15,11 @@ Les missions que sur lesquels j'ai contribué sont multiple. Tout d'abord je pr�
 
 J'ai également été chargé de développer une application interne permettant de calculer les disponibilités des collaborateurs d'IDCI-Consulting. Je présenterais donc les outils que j'ai utilisés et pourquoi. Je développerais également le fonctionnement de cet outil ainsi que ses évolutions futures.
 
-Enfin je présenterais au cours d'une dernière partie, tout le bilan d'une analyse que nous avons effectués du système d'information de la compagnie [Inflexyon](http://www.inflexyon.com/). Cette entreprise Lyonnaise qui ne cesse de se développer et qui doit faire évoluer son SI.
+Enfin je présenterais au cours d'une dernière partie, tout le bilan d'une analyse que nous avons effectué du système d'information de la compagnie [Inflexyon](http://www.inflexyon.com/). Cette entreprise Lyonnaise qui ne cesse de se développer et qui doit faire évoluer son SI.
 
 Je conclurais enfin par mes différents retours concernant l'entreprise mais également le cadre pédagogique de cette année ainsi que de l'évolution à court terme de ma vie professionnelle au sein d'IDCI-Consulting.
 
-Je vous remercie de votre lecture et espère avoir répondu aux instructions au mieux.
+Je vous remercie de votre lecture et espère avoir répondu aux instructions du mieux que j'ai pu.
 
 # Table des matières
 
@@ -193,6 +193,16 @@ Ce que les photographies ne montrent pas c'est que l'application est interactive
 
 ![Le rendu du Calendar Tool](./img/screenshot/calendar-informations.png)
 
+## Une comparaison des frameworks
+
+Chez IDCI-Consulting nous développons aujourd'hui principalement des applications clients légères basées sur un serveur. Nous sommes encore dans une phase d'essais sur les technologies javascript front tels que VueJs. Dans l'objectif faire un premier retour comparatif, j'ai porté le l'outil de calendrier sur un autre framework, React. React est un autre framework front basé sur javascript. J'ai porté les vues pour obtenir le même rendu. J'en ai profité pour faire en sorte que le code métier soit générique de manière à pouvoir utiliser le même code dans les deux applications. J'ai développé et refactorisé l'ensemble du code pour le rendre plus maintenable et plus robuste. J'ai également mis en place tous les tests unitaires dans le but d'éviter de futures régressions.
+
+Mon retour est aujourd'hui celui-ci. Les deux frameworks ont un comportement similaire basé sur des composants. Le pattern d'architecture est MVVM (modèle vue, vue modèle). L'objectif est ici de créer une connexion à deux sens entre la donnée et la vue. Une interaction avec la vue va modifier des données et notifier les vues en leurs indiquant qu'un changement a eu lieu et qu'elles doivent s'actualiser.
+
+![MVVM Architecture Pattern](./img/schemas/MVVM.png)
+
+Ces travaux que j'ai eux m'ont permis de bien mieux appréhender le pattern MVVM ainsi que les frameworks front en général. J'ai pu monter en compétence sur les deux principaux frameworks front et suis aujourd'hui apte à prendre en main de sérieux projets fronts.
+
 ## Pistes d'amélioration
 
 L'outil à pour objectif d'évoluer en fonction de nos besoins. Il pourra par exemple inclure d'autres fonctionnalités comme rendre des informations plus détaillées concernant le nombre d'heures passé par projet.
@@ -317,6 +327,7 @@ J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du mo
 - Développement from scratch : Un développement from scratch signifie un développement à partir de rien. Le projet débute sans support ni base. Les développeurs commencent depuis une page blanche.
 - Accessibilité : La notion d'accessibilité dans le développement web concerne l'utilisation de l'outil par des personnes handicapés. Cela regroupe un certain nombre de normes et de méthodes dans le but de rendre accessible à tous le monde l'outil.
 - SI - Système d'information : Le système d'information est le véhicule des entités de l'organisation. Sa structure est constituée de l'ensemble des ressources (les personnels, le matériel, les logiciels, les procédures) organisées pour : collecter, stocker, traiter et communiquer les informations. Le système d'information coordonne, grâce à la structuration des échanges, les activités de l'organisation et lui permet ainsi, d'atteindre ses objectifs.
+- Design Pattern - Architecture Pattern : En informatique, et plus particulièrement en développement logiciel, un patron de conception (souvent appelé design pattern) est un arrangement caractéristique de modules, reconnu comme bonne pratique en réponse à un problème de conception d'un logiciel. Il décrit une solution standard, utilisable dans la conception de différents logiciels.
 
 ## Lexique d'outils utilisés
 
@@ -324,6 +335,7 @@ J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du mo
 - RabbitMq est un logiciel d'agent de messages open source qui implémente le protocole Advanced Message Queuing (AMQP). Le serveur RabbitMq est écrit dans le langage de programmation Erlang
 - Framework Symfony : Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.
 - Framework VueJs : VueJs est un framework évolutif pour construire des interfaces utilisateur. À la différence des autres frameworks monolithiques, Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale. Le cœur de la bibliothèque est concentré uniquement sur la partie vue, et il est vraiment simple de l'intégrer avec d’autres bibliothèques ou projets existants. D’un autre côté, Vue est tout à fait capable de faire tourner des applications web mono-pages quand il est couplé avec des outils modernes et des bibliothèques complémentaires.
+- Framework ReactJS S React (aussi appelé React.js ou ReactJS) est une bibliothèque JavaScript libre développée par Facebook depuis 2013. Le but principal de cette bibliothèque est de faciliter la création d'application web monopage, via la création de composants dépendant d'un état et générant une page (ou portion) HTML à chaque changement d'état.
 
 ## Livres et documentations
 
@@ -335,6 +347,7 @@ J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du mo
 - Wikipédia : [https://fr.wikipedia.org](https://fr.wikipedia.org)
 - Site officiel de Symfony : [http://www.symfony.com](http://www.symfony.com)
 - Site officiel de VueJs : [https://vuejs.org/](https://vuejs.org/)
+- Site officiel de ReactJS : [https://facebook.github.io/react/docs/react-api.html](https://facebook.github.io/react/docs/react-api.html)
 - Vim documentation en ligne : [http://vimdoc.sourceforge.net/htmldoc/](http://vimdoc.sourceforge.net/htmldoc/)
 - RFC 2616 : [https://tools.ietf.org/html/rfc2616](https://tools.ietf.org/html/rfc2616)
 - Site de questions/réponses collaboratives : [http://stackoverflow.com/](http://stackoverflow.com/)
