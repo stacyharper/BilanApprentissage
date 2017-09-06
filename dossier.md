@@ -11,15 +11,15 @@ Je remercie également Adrien Peytavie pour son accompagnement depuis mon stage 
 
 [IDCI-Consulting](https://www.idci-consulting.fr/) est une entreprise de services du numérique (ou ESN). Ce rapport présente tout d'abord l'entreprise et son environnement de travail, et rend compte du développement des différentes missions par un descriptif de celles-ci suivi d'une étude fonctionnelle et technologique.
 
-Les missions que sur lesquels j'ai contribué sont multiple. Tout d'abord je présenterais l'application [Optedif](https://optedif-formation.fr/) sur laquelle j'ai débuté mes développements au cours de ce cycle d'apprentissage. Ensuite je reviendrais sur le projet [Upsters](http://upsters.fr/) que nous avons repris et portés à l'état fonctionnel.
+Les missions sur lesquelles j'ai contribué sont multiples. Tout d'abord je présenterai l'application [Optedif](https://optedif-formation.fr/) sur laquelle j'ai débuté mes développements au cours de ce cycle d'apprentissage. Ensuite je reviendrai sur le projet [Upsters](http://upsters.fr/) que nous avons repris et portés à l'état fonctionnel.
 
-J'ai également été chargé de développer une application interne permettant de calculer les disponibilités des collaborateurs d'IDCI-Consulting. Je présenterais donc les outils que j'ai utilisés et pourquoi. Je développerais également le fonctionnement de cet outil ainsi que ses évolutions futures.
+J'ai également été chargé de développer une application interne permettant de calculer les disponibilités des collaborateurs d'IDCI-Consulting. Je présenterai donc les outils que j'ai utilisés et pourquoi. Je développerai également le fonctionnement de cet outil ainsi que ses évolutions futures.
 
-Enfin je présenterais au cours d'une dernière partie, tout le bilan d'une analyse que nous avons effectué du système d'information de la compagnie [Inflexyon](http://www.inflexyon.com/). Cette entreprise Lyonnaise qui ne cesse de se développer et qui doit faire évoluer son SI.
+Enfin je présenterai au cours d'une dernière partie, tout le bilan d'une analyse que nous avons effectué du système d'information de la compagnie [Inflexyon](http://www.inflexyon.com/). Cette entreprise lyonnaise qui ne cesse de se développer et qui doit faire évoluer son SI.
 
-Je conclurais enfin par mes différents retours concernant l'entreprise mais également le cadre pédagogique de cette année ainsi que de l'évolution à court terme de ma vie professionnelle au sein d'IDCI-Consulting.
+Je conclurai enfin par mes différents retours concernant l'entreprise mais également le cadre pédagogique de cette année ainsi que de l'évolution à court terme de ma vie professionnelle au sein d'IDCI-Consulting.
 
-Je vous remercie de votre lecture et espère avoir répondu aux instructions du mieux que j'ai pu.
+Je vous remercie de votre lecture.
 
 # Table des matières
 
@@ -86,39 +86,39 @@ Le Pad est un outil d'édition de texte en direct et collaboratif. Il permet une
 
 ### Un gestionnaire de mot de passe
 
-Teampass est un outil de gestion de mot de passe d'équipe. L'ensemble de nos outils ont des accès admins (serveurs, service de gestion DNS, accès aux réseaux sociaux, etc) et un moyen efficace de lier robustesse et simplicité est de grouper les mots de passes complexe dans un outil aux accès restreints. Ainsi les mots de passes sont unique par application, très complexes et accessible facilement dans une application sécurisée et hébergé sur nos serveurs.
+Teampass est un outil de gestion de mot de passe d'équipe. L'ensemble de nos outils ont des accès admins (serveurs, service de gestion DNS, accès aux réseaux sociaux, etc). Nous cherchions un moyen efficace de lier robustesse et simplicité. Nous avons donc groupé les mots de passes complexes dans un outil aux accès restreints. Ainsi les mots de passes sont uniques par application, très complexes et accessibles facilement dans une application sécurisée et hébergée sur nos serveurs.
 
-L'idée d'utiliser ce type d'outil émane de moi et j'ai sélectionné et mis en place Teampass moi-même sur le serveur de développement d'IDCI.
+L'idée d'utiliser ce type d'outil émane de moi. J'ai sélectionné et mis en place Teampass moi-même sur le serveur de développement d'IDCI.
 
 ![Imprimé écran Teampass](./img/screenshot/teampass.png)
 
 ## Mon rôle chez IDCI-Consulting
 
-J'interviens au sein de la société de manière polyvalente. Mes tâches vont du développement d'outil internes jusqu'à l'élaboration d'application web client à forte plus-value, complexes et nécessitant un travail d'équipe ainsi que des connaissances techniques sur lesquelles je monte en compétence. Je travaille principalement sur les technologies du web, à savoir PHP, JavaScript, HTML et CSS. J'utilise les frameworks Symfony et VueJs. Et base mes travaux sur des technologies uniquement open source.
+J'interviens au sein de la société de manière polyvalente. Mes tâches vont du développement d'outil internes jusqu'à l'élaboration d'application web client à forte plus-value (valeur ajoutée ?), complexes et nécessitant un travail d'équipe ainsi que des connaissances techniques sur lesquelles je monte en compétence. Je travaille principalement sur les technologies du web, à savoir PHP, JavaScript, HTML et CSS. J'utilise les frameworks Symfony et VueJs. Je base mes travaux sur des technologies uniquement open source.
 
 # Les projets pour lesquels j'ai contribué
 
-Dans cette partie je vais évoquer les différents projets pour lesquels j'ai contribué. Je commencerais par présenter ces projets. J'expliquerais ensuite dans quelle mesure j'ai contribué aux projets. Enfin je rapporterais l'état actuel ainsi que les évolutions envisageables pour ces projets.
+Dans cette partie je vais évoquer les différents projets pour lesquels j'ai contribué. Je commencerai par présenter ces projets. J'expliquerai ensuite dans quelle mesure j'ai contribué aux projets. Enfin je rapporterai l'état actuel ainsi que les évolutions envisageables pour ces projets.
 
 ## Le projet Optedif
 
 ![Imprimé écran Optedif](./img/screenshot/optedif.png)
 
-Optedif est un outil de mise en relations entre des personnes qui donnent des formations et des personnes qui en cherche. Il est basé sur le framework Symfony 2.8 ainsi que d'une base de donnée Mysql. Il est le fruit d'un développement from scratch datant de 2016. Cette plateforme à beaucoup évolué depuis sa création et est passé entre les mains de plusieurs développeurs.
+Optedif est un outil de mise en relations entre des personnes qui donnent des formations et des personnes qui en cherchent. Il est basé sur le framework Symfony 2.8 ainsi que d'une base de donnée MySQL. Il est le fruit d'un développement _from scratch_ datant de 2016. Cette plateforme a beaucoup évolué depuis sa création et est passée entre les mains de plusieurs développeurs.
 
 ### Reprise du projet
 
-IDCI-Consulting a repris le projet début 2017. J'ai donc travaillé sur Optedif depuis le début de mon stage ainsi que durant une partie de ma Licence Pro. Optedif constituait encore au début de cette année de Licence Professionnelle, une grosse partie de mes développements au sein d'IDCI-Consulting.
+IDCI-Consulting a repris le projet début 2016. J'ai donc travaillé sur Optedif depuis le début de mon stage ainsi que durant une partie de ma Licence Pro. Optedif constituait encore au début de cette année de Licence Professionnelle, une grosse partie de mes développements au sein d'IDCI-Consulting.
 
 ### Nos développements sur Optedif
 
-Ce projet à pour moi été ma première expérience avec le Framework Symfony. C'est sous la tutelle de Brahim Boukoufallah que j'ai pu faire progresser ma compréhension de Frameworks plus complexes.
+Ce projet a pour moi été ma première expérience avec le Framework Symfony. C'est sous la tutelle de Brahim Boukoufallah que j'ai pu faire progresser ma compréhension de Frameworks plus complexes.
 
-Un des développements les plus notables auxquels j'ai participé sur Optedif concernait un problème de performance. Les manipulations des données prenait beaucoup de temps et cela rendait la navigation lente. Cette lenteur découlait d'un grand nombre d'actions exécuté pour manipuler les objets. Une des taches les plus gourmandes en ressource concernait les exportations vers Odoo.
+Un des développements les plus notables auxquels j'ai participé sur Optedif concernait un problème de performance. Les manipulations des données prenaient beaucoup de temps et cela rendait la navigation lente. Cette lenteur découlait d'un grand nombre d'actions exécuté pour manipuler les objets. Une des tâches les plus gourmandes en ressource concernait les exportations vers Odoo.
 
-Le client utilise un serveur Odoo (voir lexique) pour analyser les données clientes. L'application Symfony doit donc synchroniser ses données vers l'application Odoo via le protocole XML-RPC. Le souci est que l'export des données se faisait de manière synchrone sur la requête du navigateur web des clients. Ainsi le client devait attendre que les processus soit terminés pour accéder aux pages web de réponse. Nous avons donc travaillé à désynchroniser cette tache d'export.
+Le client utilise un serveur Odoo (voir lexique) pour analyser les données clientes. L'application Symfony doit donc synchroniser ses données vers l'application Odoo via le protocole XML-RPC. Le souci est que l'export des données se faisait de manière synchrone sur la requête du navigateur web des clients. Ainsi le client devait attendre que les processus soient terminés pour accéder aux pages web de réponse. Nous avons donc travaillé à désynchroniser cette tache d'export.
 
-Nous avons utilisé RabbitMq qui est un gestionnaire de file d'attente de type Queuing pour cette tache. Concrètement l'application Symfony informait un tiers qu'une donnée avait été crée ou modifié. Ce tiers conservait l'information au travers une file d'attente. Enfin un processus PHP se chargeait de récupérer ses informations pour traiter l'export vers Odoo. Ainsi ce n'était plus le processus chargé de fournir une confirmation au client qui se chargeait de l'export. Nous avons donc fais grandir l'application de manière horizontale permettant de traiter des tâches couteuses en tâches de fond.
+Nous avons utilisé RabbitMq qui est un gestionnaire de file d'attente de type Queuing pour cette tâche. Concrètement l'application Symfony informait un tiers qu'une donnée avait été créée ou modifiée. Ce tiers conservait l'information au travers une file d'attente. Enfin un processus PHP se chargeait de récupérer ses informations pour traiter l'export vers Odoo. Ainsi ce n'était plus le processus, chargé de fournir une confirmation au client, de traiter aussi l'export. Nous avons donc fait grandir l'application de manière horizontale permettant de traiter des tâches coûteuses en tâches de fond.
 
 Avant | Après
 :---:|:---:
@@ -127,7 +127,7 @@ Avant | Après
 
 ### Accompagnement vers la passation
 
-En fin d'année 2016, IDCI-Consulting a exprimé sont besoin de ne plus maintenir le site Optedif. Notre client à donc trouvé un nouveau collaborateur pour continuer de développer son projet. IDCI-Consulting à tout de même été missionné pour manager la passation, répondre aux différentes interrogations ainsi que de migrer le code source vers une nouvelle plateforme.
+En fin d'année 2016, IDCI-Consulting a exprimé son besoin de ne plus maintenir le site Optedif. Notre client a donc trouvé un nouveau collaborateur pour continuer de développer son projet. IDCI-Consulting a tout de même été missionné pour manager la passation, répondre aux différentes interrogations ainsi que de migrer le code source vers une nouvelle plateforme.
 
 Le code source était précédemment hébergé sur BitBucket et il a été migré sur un GitLab mis en place spécialement pour ce projet. La structure git du projet en elle-même à également été revue. Avant nous utilisions un ensemble de branche pour différencier les codes sources prod, pre-prod et dev. Il a finalement été décidé de passer à une structure plus simple basée sur deux branches master et dev. La modification de cette structure était à tester, vérifier et réaliser sur un dépôt de test pour assurer l'intégrité du projet.
 
@@ -139,21 +139,21 @@ Upsters est une plateforme gratuite, permettant aux entrepreneurs d'être mis en
 
 ### Reprise du projet
 
-Le site Upsters a été commencé par un développeur indépendant débutant sur le framework Symfony. Ce travailleur a abandonné le développement pour raison personnelle. Ainsi le client Dozee s'est mis en quête d'une équipe de développeur pour porter le projet à son terme. La reprise du projet à donc commencé par une analyse du projet ainsi que du diagnostic de l'état du code.
+Le site Upsters a été commencé par un développeur indépendant débutant sur le framework Symfony. Ce travailleur a abandonné le développement pour raison personnelle. Ainsi le client Dozee s'est mis en quête d'une équipe de développeurs pour porter le projet à son terme. La reprise du projet a donc commencé par une analyse du projet ainsi que du diagnostic de l'état du code.
 
 ### Les développements sur Upsters
 
 Upsters n'était pas fonctionnel lorsque nous avons repris le projet. Un grand nombre de fonctionnalités était absente ou seulement partiellement en place. Il y a eu également quelques parties du code source à améliorer suites à des erreurs précédentes basées sur une méconnaissance du framework.
 
-J'ai réalisé un très grand nombre de petites choses sur ce projet. Il serait peu pertinent d'en faire ici une liste exhaustive. En revanche c'est la une bonne occasion de présenter notre méthode de développement.
+Je suis intervenu sur différents points sur ce projet. J'ai réalisé un très grand nombre de petites choses sur ce projet. Il serait peu pertinent d'en faire ici une liste exhaustive. En revanche c'est la une bonne occasion de présenter notre méthode de développement.
 
 Au sein d'IDCI nous tenons à utiliser des méthodes de développement le plus proche des méthodes agiles. Les objectifs sont généralement d'ajouter des fonctionnalités de manière incrémentale et d'être toujours au plus proche de ce que le client veut. Le cas d'Upsters est un exemple typique de cette méthode de développement. Nous n'utilisons pas de méthode agile normée telle que Scrum à proprement parler, mais nous basons nos développements autour de tickets. En cas de besoin de fonctionnalité ou de correction d'un bogue, le client ouvre un ticket sur notre application Redmine en donnant le plus de détail possible sur sa demande. Nous commençons un échange dans le but d'obtenir tous les tenants et aboutissant des ajouts et, ou modifications à effectuer. Enfin nous devisons un temps pour réaliser ce ticket et nous partons sur le développement.
 
-La méthode des tickets permet d'archiver les échanges avec le client ainsi que de garder un suivi clair de l'avancement d'un projet. Elle permet également de simplifier la facturation car elle convient d'un accord liant un ensemble de tache avec un temps de développement facturé. Nous basons autant que possible nos développements autour de cette méthode. Elle est le socle de tous nos projets.
+La méthode des tickets permet d'archiver les échanges avec le client ainsi que de garder un suivi clair de l'avancement d'un projet. Elle permet également de simplifier la facturation car elle convient d'un accord liant un ensemble de tâches avec un temps de développement facturé. Nous basons autant que possible nos développements autour de cette méthode.
 
 ### État actuel du projet
 
-En juillet 2017, La Lyon French Tech a émis un appel d'offre concernant une application de mise en relation de professionnel correspondant beaucoup au projet Upsters. Dozee à donc répondu à cet appel d'offre. Dozee espérait premièrement obtenir un partenariat avec IDCI-Consulting. Il voulait s'assurer une équipe de développeur capable de faire évoluer Upsters pour le faire correspondre plus exactement avec l'appel d'offre. Nous avons été conduis à décliner cette demande, faute de ressource disponible sur la période de septembre. Dozee a donc dû chercher de nouveaux collaborateurs pour continuer les développements sur le projet.
+En juillet 2017, La Lyon French Tech a émis un appel d'offre concernant une application de mise en relation de professionnel correspondant beaucoup au projet Upsters. Dozee a donc répondu à cet appel d'offre. Dozee espérait premièrement obtenir un partenariat avec IDCI-Consulting. Il voulait s'assurer une équipe de développeur capable de faire évoluer Upsters pour le faire correspondre plus exactement avec l'appel d'offre. Nous avons été conduis à décliner cette demande, faute de ressources disponibles sur la période de septembre. Dozee a donc dû chercher de nouveaux collaborateurs pour continuer les développements sur le projet.
 
 # Un outil de gestion des ressources
 
@@ -163,33 +163,33 @@ Les collaborateurs IDCI-Consulting utilisent l'outil Google Calendar pour la ges
 
 ## Un framework Front End
 
-Pour le développement de cet outil j'ai décidé d'utiliser le framework VueJs. VueJs est un framework javascript front exécuté dans le navigateur client. Cela permet d'avoir une application interactive et qui ne fonctionne pas sur la base demande - réponse des applications PHP. L'utilisation de VueJs était également pour moi l'occasion de monter en compétence sur cette technologie qui est de plus en plus utilisé au sein du monde du web.
+Pour le développement de cet outil j'ai décidé d'utiliser le framework VueJs. VueJs est un framework javascript front exécuté dans le navigateur client. Cela permet d'avoir une application interactive et qui ne fonctionne pas sur la base requête/réponse des applications PHP. L'utilisation de VueJs était également pour moi l'occasion de monter en compétence sur cette technologie qui est de plus en plus utilisé au sein du monde du web.
 
 ## Les autres technologies utilisées
 
 Pour travailler avec les API Google, Google propose un outil client javascript permettant un accès simplifié aux différentes API. Je peux donc récupérer aisément l'ensemble des calendriers ainsi que des événements qui y sont contenus. Ainsi j'ai tout le loisir de traiter ces données pour l'afficher dans mon application VueJs.
 
-J'ai également profité de ce projet pour monter en compétence sur l'outil Webpack. Webpack est un outil de gestion de dépendance majoritairement utilisé dans les projets Nodejs. Il permet d'automatiser la génération de sources js, css et images fournis aux clients. Il permet entre autre de rendre compatible aux différents navigateurs tous les codes basés aux normes récentes.
+J'ai également profité de ce projet pour monter en compétence sur l'outil Webpack. Webpack est un outil de gestion de dépendances majoritairement utilisé dans les projets Nodejs. Il permet d'automatiser la génération de sources js, css et images fournis aux clients. Il permet entre autre de rendre compatible aux différents navigateurs tous les codes basés aux normes récentes.
 
 ## Méthode de fonctionnement
 
-L'outil se base sur une grammaire précise pour détecter les agendas de nos collaborateurs ainsi que les évènements liés aux travaux facturé. Il prend compte du nom des éléments pour déterminer le type de celui-ci. Les éléments pris en compte dans le calcul des disponibilités sont ceux qui utilisent la forme 'Projet [ENTREPRISE]'. Nous avons donc définis une norme de notation permettant à l'outil de ne pas commettre d'erreur, de ne pas "oublier" d'évènements. Des erreurs humaines peuvent ainsi toujours subvenir si la norme est oublié.
+L'outil se base sur une grammaire précise pour détecter les agendas de nos collaborateurs ainsi que les évènements liés aux travaux facturés. Il prend compte du nom des éléments pour déterminer le type de celui-ci. Les éléments pris en compte dans le calcul des disponibilités sont ceux qui utilisent la forme 'Projet [ENTREPRISE]'. Nous avons donc définis une norme de notation permettant à l'outil de ne pas commettre d'erreur, de ne pas "oublier" d'évènements. Des erreurs humaines peuvent ainsi toujours subvenir si la norme est oubliée.
 
-Une autre possibilité aurait été de créer des agendas spécifiques par projet. Tous les évènements contenus dans ces agendas serait utilisés pour calculer les disponibilités. Cela éviterait les fautes de frappes car l'outil ne chercherait plus à détecter les évènements. Il additionnerait les temps de tous les événements pour calculer les disponibilités.
+Une autre possibilité aurait été de créer des agendas spécifiques par projet. Tous les évènements contenus dans ces agendas seraient utilisés pour calculer les disponibilités. Cela éviterait les fautes de frappes car l'outil ne chercherait plus à détecter les évènements. Il additionnerait les temps de tous les événements pour calculer les disponibilités.
 
 Dans un souci de rétro-compatibilité ainsi que pour éviter d'être submergés d'agendas, nous avons décidé de préserver nos agendas actuels et donc de normer les évènements.
 
 ## Rendu final
 
-L'application à besoin de se connecter au compte Google pour avoir accès aux bons calendriers. Ainsi elle récupère l'accès aux différents calendriers des collaborateurs.
+L'application a besoin de se connecter au compte Google pour avoir accès aux bons calendriers. Ainsi elle récupère l'accès aux différents calendriers des collaborateurs.
 
 ![L'application avant d'être connecté](./img/screenshot/calendar-need-login.png)
 
 ![La page de connexion de Google](./img/screenshot/google-login-screen.png)
 
-Une fois l'accès validé, l'application récupère via les api tous les évènements de tous les calendriers des collaborateurs et calcul les disponibilités.
+Une fois l'accès validé, l'application récupère via les API tous les évènements de tous les calendriers des collaborateurs et calcul les disponibilités.
 
-Ce que les photographies ne montrent pas c'est que l'application est interactive. Les blocs de sélection de date en haut ne sont pas validé par un bouton. Le contenu de la page s'actualise automatiquement lorsque une nouvelle date est sélectionné.
+Ce que les photographies ne montrent pas c'est que l'application est interactive. Les blocs de sélection de date en haut ne sont pas validés par un bouton. Le contenu de la page s'actualise automatiquement lorsque une nouvelle date est sélectionnée.
 
 ![Le rendu du Calendar Tool](./img/screenshot/calendar-informations.png)
 
@@ -205,34 +205,34 @@ Ces travaux que j'ai eux m'ont permis de bien mieux appréhender le pattern MVVM
 
 ## Pistes d'amélioration
 
-L'outil à pour objectif d'évoluer en fonction de nos besoins. Il pourra par exemple inclure d'autres fonctionnalités comme rendre des informations plus détaillées concernant le nombre d'heures passé par projet.
+L'outil a pour objectif d'évoluer en fonction de nos besoins. Il pourra par exemple inclure d'autres fonctionnalités comme rendre des informations plus détaillées concernant le nombre d'heures passé par projet.
 
 # L'analyse du projet Inflexyon
 
 ![Imprimé écran Inflexyon](./img/screenshot/inflexyon.png)
 
-Inflexyon est une entreprise Lyonnaise qui propose un ensemble de service autour de cultures française et étrangères. Elle propose par exemple des cours de langue, des ateliers de différents type, un centre d'examen, des aides au logement et bien d'autres choses.
+Inflexyon est une entreprise Lyonnaise qui propose un ensemble de service autour de cultures française et étrangères. Elle propose par exemple des cours de langue, des ateliers de différents types, un centre d'examen, des aides au logement et bien d'autres choses.
 
 Inflexyon existe depuis près de 10 ans et a vu son besoin de système d'information complète augmenter progressivement. IDCI-Consulting a été sollicité pour apporter son analyse du SI actuel et pour exprimer un ensemble de proposition dans le but de l'améliorer. L'idée sous-jacente est que si nos propositions d'améliorations ainsi que notre estimation de leurs coûts correspondaient aux attentes d'Inflexyon, IDCI et Inflexyon deviendraient collaborateurs pour faire évoluer ce SI.
 
 Notre intervention s'est déroulé en trois étapes :
 
-- Des entretiens avec certaines personnes travaillant chez Inflexyon dans le but d'obtenir un ensemble d'information concernant leurs métiers et pour mieux cerner leurs différents besoins.
+- Des entretiens avec certaines personnes travaillant chez Inflexyon dans le but d'obtenir un ensemble d'information concernant leurs métiers et pour mieux comprendre leurs différents besoins.
 - La rédaction d'un document comprenant un récapitulatif de nos pistes d'amélioration ainsi qu'un devis des coûts pour les réaliser.
 - Une présentation devant leurs équipes du projet global pour convaincre l'ensemble de l'équipe d'Inflexyon.
 
 Il a également été exprimé le besoin d'unifier les différents services pour simplifier le suivit des différents processus.
 
-Gabriel Bondaz et moi-même avons conduit Inflexyon à la réflexion de son SI au cours de ces différentes étapes. Notre objectif était d'apporter un ou un ensemble d'outil permettant d'aider Inflexyon dans son développement d'offre toujours plus varié.
+Gabriel Bondaz et moi-même avons conduit Inflexyon à la réflexion de son SI au cours de ces différentes étapes. Notre objectif était d'apporter un ou plusieurs ensembles d'outils permettant d'aider Inflexyon dans son développement d'offres toujours plus varié.
 
 ## Entretiens chez Inflexyon
 
-Nous avons dont tout d'abord sollicité certains membres de l'équipe d'Inflexyon pour mieux cerner leurs besoins. Deux jours ont été consommés dans les locaux d'Inflexyon pour échanger avec l'équipe autour de différentes pistes d'amélioration.
+Nous avons donc tout d'abord sollicité certains membres de l'équipe d'Inflexyon pour mieux comprendre leurs besoins. Deux jours ont été consommés dans les locaux d'Inflexyon pour échanger avec l'équipe autour de différentes pistes d'amélioration.
 
 Le SI en œuvre à cette époque fonctionnait comme suit :
 
-- Chacun des services d'Inflexyon est géré par des personnes différentes et avec des méthodes différentes. Ce découpage des services est historique car avant ce besoin d'unifier, c'est bien un ensemble d'offre qui coexistant dans l'ensemble Inflexyon.
-- Le stockage des données (client, offres, services, logements, examens) est effectué dans des tableurs Google Excel variés. Cette méthode assure à chacun une persistance des données mais oblige une grande redondance en fonction des services. Les informations clients se retrouvent dans la fiche d'aide au logement, dans celle des cours auquel il participe, dans celle destiné au comptable, etc.
+- Chacun des services d'Inflexyon est géré par des personnes différentes et avec des méthodes différentes. Ce découpage des services est historique car avant ce besoin d'unifier, c'est bien un ensemble d'offre qui coexistant dans l'écosystème d'Inflexyon.
+- Le stockage des données (clients, offres, services, logements, examens) est effectué dans des tableurs Google Excel variés. Cette méthode assure à chacun une persistance des données mais oblige une grande redondance en fonction des services. Les informations clients se retrouvent dans la fiche d'aide au logement, dans celle des cours auquel il participe, dans celle destinée au comptable, etc.
 
 Il a rapidement été convenu que la méthode actuelle ne convenait plus à la bonne croissance et ce pour plusieurs raisons :
 
@@ -240,7 +240,7 @@ Il a rapidement été convenu que la méthode actuelle ne convenait plus à la b
 - Redondance d'informations
 - Analyse de l'état de santé d'Inflexyon impossible
 - Impossibilité de partager le travail car chaque donnée est personnelle aux travailleurs
-- Impossibilité de faire le suivit d'un client au travers plus d'un service car la donnée n'est pas mutualisé.
+- Difficulté à effectuer le suivit des clients au travers des services
 
 ## Phase d'analyse et de conception interne
 
@@ -299,7 +299,7 @@ C'est le mercredi 19 juillet que nous avons finalement présenté notre compte r
 
 ## État du projet
 
-À ce jour nous n'avons pas de réponse de la part d'Inflexyon concernant la poursuite de ce projet ainsi que le début des développements.
+Nous avons reçu une réponse positive de la part d'Inflexyon concernant la poursuite de ce projet ainsi que le début des développements. Les développements débuteront dont au cours du mois de septembre. Ce projet va principalement me mobiliser pendant une longue période. Le premier lot devrait donc être livré en fin d'année 2017.
 
 # Mes retours
 
@@ -307,7 +307,7 @@ Dans cette partie je vais exprimer mes retours positifs et négatifs sur cette a
 
 ## IDCI Consulting
 
-IDCI Consulting a été pour moi le parfait milieu pour m'épanouir professionnellement. J'y ai pu exercer ma créativité et laisser exprimer mon instinct et mes envies d'expérimentation. J'ai tout de même disposé d'un cadre suffisamment strict pour me guider vers les meilleures pistes de conception et pour me fournir un socle d'expérience forte. Je suis resté entouré de développeurs compétents et intègre dans leurs choix. J'ai pu travailler sur différents projets avec des contraintes et objectifs variés. J'ai donc dû développer mon sens de l'adaptation ainsi que celui de l'empathie pour me permettre de bien cerner les demandes de mes clients.
+IDCI Consulting a été pour moi le parfait milieu pour m'épanouir professionnellement. J'y ai pu exercer ma créativité et laisser exprimer mon instinct et mes envies d'expérimentation. J'ai tout de même disposé d'un cadre suffisamment strict pour me guider vers les meilleures pistes de conception et pour me fournir un socle d'expériences fortes. Je suis resté entouré de développeurs compétents et intègres dans leurs choix. J'ai pu travailler sur différents projets avec des contraintes et objectifs variés. J'ai donc dû développer mon sens de l'adaptation ainsi que celui de l'empathie pour me permettre de bien cerner les demandes de mes clients.
 
 ## Licence Pro METINET
 
@@ -315,9 +315,9 @@ La licence professionnelle METINET a su m'apporter de solides bases dans un ense
 
 ## Mon avenir
 
-Aujourd'hui j'ai la chance de travailler au sein d'une équipe soudée et professionnelle qui partage mes valeurs du développement et qui veut de moi comme collaborateur. Est donc en discussion le projet de m'embaucher en CDI dès la fin de ma période de contrat d'apprentissage. J'ai pour objectif d'apporter autant sur la prochaine année à IDCI que ce qu'elle m'a apporté au cours de la précédente, et plus encore.
+Je suis embauché en CDI dès la fin de ma période de contrat d'apprentissage en tant que collaborateur d'IDCI. Aujourd'hui j'ai donc la chance de travailler au sein d'une équipe soudée et professionnelle qui partage mes valeurs du développement. J'ai pour objectif d'apporter autant sur la prochaine année à IDCI que ce qu'elle m'a apporté au cours de la précédente, et plus encore.
 
-J'ai aujourd'hui un bagage de compétence me permettant d'évoluer au sein du monde professionnel du développement. C'est sur cette licence professionnelle que je termine mon cursus scolaire et que je me lance complètement dans la vie active.
+J'ai aujourd'hui un bagage de compétences me permettant d'évoluer au sein du monde professionnel du développement. C'est sur cette licence professionnelle que je termine mon cursus scolaire et que je me lance complètement dans la vie active.
 
 # Bibliographie & Sitographie
 
