@@ -19,7 +19,7 @@ Enfin je présenterai au cours d'une dernière partie, tout le bilan d'une analy
 
 Je conclurai enfin par mes différents retours concernant l'entreprise mais également le cadre pédagogique de cette année ainsi que de l'évolution à court terme de ma vie professionnelle au sein d'IDCI-Consulting.
 
-Je vous remercie de votre lecture (et espère avoir répondu aux instructions au mieux.) tu peux le dire ça ?
+Je vous remercie de votre lecture.
 
 # Table des matières
 
@@ -145,14 +145,11 @@ Le site Upsters a été commencé par un développeur indépendant débutant sur
 
 Upsters n'était pas fonctionnel lorsque nous avons repris le projet. Un grand nombre de fonctionnalités était absente ou seulement partiellement en place. Il y a eu également quelques parties du code source à améliorer suites à des erreurs précédentes basées sur une méconnaissance du framework.
 
-Je suis intervenu sur différents points sur ce projet. (Note: j'aime pas le "un très grand nombre de petites choses")
-J'ai réalisé un très grand nombre de petites choses sur ce projet. Il serait peu pertinent d'en faire ici une liste exhaustive. En revanche c'est la une bonne occasion de présenter notre méthode de développement.
+Je suis intervenu sur différents points sur ce projet. J'ai réalisé un très grand nombre de petites choses sur ce projet. Il serait peu pertinent d'en faire ici une liste exhaustive. En revanche c'est la une bonne occasion de présenter notre méthode de développement.
 
 Au sein d'IDCI nous tenons à utiliser des méthodes de développement le plus proche des méthodes agiles. Les objectifs sont généralement d'ajouter des fonctionnalités de manière incrémentale et d'être toujours au plus proche de ce que le client veut. Le cas d'Upsters est un exemple typique de cette méthode de développement. Nous n'utilisons pas de méthode agile normée telle que Scrum à proprement parler, mais nous basons nos développements autour de tickets. En cas de besoin de fonctionnalité ou de correction d'un bogue, le client ouvre un ticket sur notre application Redmine en donnant le plus de détail possible sur sa demande. Nous commençons un échange dans le but d'obtenir tous les tenants et aboutissant des ajouts et, ou modifications à effectuer. Enfin nous devisons un temps pour réaliser ce ticket et nous partons sur le développement.
 
-La méthode des tickets permet d'archiver les échanges avec le client ainsi que de garder un suivi clair de l'avancement d'un projet. Elle permet également de simplifier la facturation car elle convient d'un accord liant un ensemble de tâches avec un temps de développement facturé. Nous basons autant que possible nos développements autour de cette méthode. Elle est le socle de tous nos projets. (Elle est le socle de notre organisation ?)
-
-Un petit schéma pour illustrer tout ça ? :)
+La méthode des tickets permet d'archiver les échanges avec le client ainsi que de garder un suivi clair de l'avancement d'un projet. Elle permet également de simplifier la facturation car elle convient d'un accord liant un ensemble de tâches avec un temps de développement facturé. Nous basons autant que possible nos développements autour de cette méthode.
 
 ### État actuel du projet
 
@@ -210,7 +207,7 @@ Inflexyon existe depuis près de 10 ans et a vu son besoin de système d'informa
 
 Notre intervention s'est déroulé en trois étapes :
 
-- Des entretiens avec certaines personnes travaillant chez Inflexyon dans le but d'obtenir un ensemble d'information concernant leurs métiers et pour mieux cerner leurs différents besoins.
+- Des entretiens avec certaines personnes travaillant chez Inflexyon dans le but d'obtenir un ensemble d'information concernant leurs métiers et pour mieux comprendre leurs différents besoins.
 - La rédaction d'un document comprenant un récapitulatif de nos pistes d'amélioration ainsi qu'un devis des coûts pour les réaliser.
 - Une présentation devant leurs équipes du projet global pour convaincre l'ensemble de l'équipe d'Inflexyon.
 
@@ -220,7 +217,7 @@ Gabriel Bondaz et moi-même avons conduit Inflexyon à la réflexion de son SI a
 
 ## Entretiens chez Inflexyon
 
-Nous avons donc tout d'abord sollicité certains membres de l'équipe d'Inflexyon pour mieux cerner (cerner c'est familié je trouve. Tu devrais simplement utiliser "comprendre") leurs besoins. Deux jours ont été consommés dans les locaux d'Inflexyon pour échanger avec l'équipe autour de différentes pistes d'amélioration.
+Nous avons donc tout d'abord sollicité certains membres de l'équipe d'Inflexyon pour mieux comprendre leurs besoins. Deux jours ont été consommés dans les locaux d'Inflexyon pour échanger avec l'équipe autour de différentes pistes d'amélioration.
 
 Le SI en œuvre à cette époque fonctionnait comme suit :
 
@@ -233,7 +230,7 @@ Il a rapidement été convenu que la méthode actuelle ne convenait plus à la b
 - Redondance d'informations
 - Analyse de l'état de santé d'Inflexyon impossible
 - Impossibilité de partager le travail car chaque donnée est personnelle aux travailleurs
-- Impossibilité de faire le suivit d'un client au travers plus d'un service car la donnée n'est pas mutualisé. (À reformuler je pense)
+- Difficulté à effectuer le suivit des clients au travers des services
 
 ## Phase d'analyse et de conception interne
 
@@ -292,7 +289,7 @@ C'est le mercredi 19 juillet que nous avons finalement présenté notre compte r
 
 ## État du projet
 
-À ce jour nous n'avons pas de réponse de la part d'Inflexyon concernant la poursuite de ce projet ainsi que le début des développements. (Maintenant tu as une réponse positive ^^)
+Nous avons reçu une réponse positive de la part d'Inflexyon concernant la poursuite de ce projet ainsi que le début des développements. Les développement débuterons dont au cours du mois de septembre. Ce projet va principalement me mobiliser pendant une longue période. Le premiers lot devrait donc être livré en fin d'année 2017.
 
 # Mes retours
 
@@ -308,7 +305,7 @@ La licence professionnelle METINET a su m'apporter de solides bases dans un ense
 
 ## Mon avenir
 
-Aujourd'hui j'ai la chance de travailler au sein d'une équipe soudée et professionnelle qui partage mes valeurs du développement et qui veut de moi comme collaborateur. Est donc en discussion le projet de m'embaucher en CDI dès la fin de ma période de contrat d'apprentissage (On te prend en CDI c'est good now). J'ai pour objectif d'apporter autant sur la prochaine année à IDCI que ce qu'elle m'a apporté au cours de la précédente, et plus encore.
+Je suis embauché en CDI dès la fin de ma période de contrat d'apprentissage en tant que collaborateur d'IDCI. Aujourd'hui j'ai donc la chance de travailler au sein d'une équipe soudée et professionnelle qui partage mes valeurs du développement. J'ai pour objectif d'apporter autant sur la prochaine année à IDCI que ce qu'elle m'a apporté au cours de la précédente, et plus encore.
 
 J'ai aujourd'hui un bagage de compétences me permettant d'évoluer au sein du monde professionnel du développement. C'est sur cette licence professionnelle que je termine mon cursus scolaire et que je me lance complètement dans la vie active.
 
