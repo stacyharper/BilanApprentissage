@@ -11,7 +11,7 @@ Je remercie également Adrien Peytavie pour son accompagnement depuis mon stage 
 
 [IDCI-Consulting](https://www.idci-consulting.fr/) est une entreprise de services du numérique (ou ESN). Ce rapport présente tout d'abord l'entreprise et son environnement de travail, et rend compte du développement des différentes missions par un descriptif de celles-ci suivi d'une étude fonctionnelle et technologique.
 
-Les missions sur lesquels j'ai contribué sont multiples. Tout d'abord je présenterai l'application [Optedif](https://optedif-formation.fr/) sur laquelle j'ai débuté mes développements au cours de ce cycle d'apprentissage. Ensuite je reviendrai sur le projet [Upsters](http://upsters.fr/) que nous avons repris et portés à l'état fonctionnel.
+Les missions sur lesquelles j'ai contribué sont multiples. Tout d'abord je présenterai l'application [Optedif](https://optedif-formation.fr/) sur laquelle j'ai débuté mes développements au cours de ce cycle d'apprentissage. Ensuite je reviendrai sur le projet [Upsters](http://upsters.fr/) que nous avons repris et portés à l'état fonctionnel.
 
 J'ai également été chargé de développer une application interne permettant de calculer les disponibilités des collaborateurs d'IDCI-Consulting. Je présenterai donc les outils que j'ai utilisés et pourquoi. Je développerai également le fonctionnement de cet outil ainsi que ses évolutions futures.
 
@@ -289,7 +289,7 @@ C'est le mercredi 19 juillet que nous avons finalement présenté notre compte r
 
 ## État du projet
 
-Nous avons reçu une réponse positive de la part d'Inflexyon concernant la poursuite de ce projet ainsi que le début des développements. Les développement débuterons dont au cours du mois de septembre. Ce projet va principalement me mobiliser pendant une longue période. Le premiers lot devrait donc être livré en fin d'année 2017.
+Nous avons reçu une réponse positive de la part d'Inflexyon concernant la poursuite de ce projet ainsi que le début des développements. Les développements débuteront dont au cours du mois de septembre. Ce projet va principalement me mobiliser pendant une longue période. Le premier lot devrait donc être livré en fin d'année 2017.
 
 # Mes retours
 
